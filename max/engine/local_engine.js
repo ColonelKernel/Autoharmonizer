@@ -10,8 +10,8 @@
  * nothing. Everything below it (corpus/blend/neural/phrase) is already ported
  * and tested against Python fixtures.
  *
- * Backend choice is made ONCE at init(): onnxruntime-node if it loads, else the
- * pure-JS forward pass. Both models are loaded eagerly (1.3 MB of ONNX graph,
+ * Backend choice is made ONCE at init(): onnxruntime-node if it loads IN TIME,
+ * else the pure-JS forward pass. Both models are loaded eagerly (1.3 MB of ONNX graph,
  * or 1.7 MB of base64 weights) so that switching Model on stage is instant and
  * cannot surprise a performer with a load failure mid-set — the failure, if it
  * comes, happens once at device load and lights the panel red.
@@ -47,6 +47,28 @@ const DEFAULT_SESSION_MAX_STEPS = 64;
 const DEFAULT_SESSION_AUTO_FEED = true;
 const DEFAULT_NEURAL_EXCLUDE_INPUT = true;
 
+// Cold-load ceiling for the native ONNX runtime. Two graphs totalling 1.3 MB
+// load in well under a second, so ten of them means the addon is wedged.
+const ONNX_INIT_TIMEOUT_MS = 10000;
+
+/**
+ * Reject after `ms` if `promise` has not settled.
+ *
+ * The timer is deliberately NOT unref'd. When the runtime wedges, this timer is
+ * the only live handle: unref it and Node drains the loop and exits before the
+ * timeout can fire, which is the very hang this guards against. The winning path
+ * clears it in `finally`, so it never holds the process open for real work.
+ * Promise.race attaches a handler to `promise`, so a late rejection from the
+ * abandoned loser is never an unhandled rejection.
+ */
+function withTimeout(promise, ms, what) {
+  let timer = null;
+  const clock = new Promise((_resolve, reject) => {
+    timer = setTimeout(() => reject(new Error(`${what} timed out after ${ms} ms`)), ms);
+  });
+  return Promise.race([promise, clock]).finally(() => clearTimeout(timer));
+}
+
 /**
  * Adventure/Spice dial (0..1) -> JazzNet softmax temperature, verbatim from
  * registry.set_neural_temperature_from_dial: 0 -> 0.6, 0.5 -> 1.5, 1 -> 2.4.
@@ -59,17 +81,19 @@ function dialToTemperature(value) {
 }
 
 /**
- * createLocalEngine({dataDir, post, rng}) -> engine facade.
+ * createLocalEngine({dataDir, post, rng, onnxInitTimeoutMs}) -> engine facade.
  *
  * `post` is an optional logger (Max.post). `rng` is an optional () => [0,1)
  * stream shared by every sampler, so a test can make the whole device
- * deterministic without reaching into the modules.
+ * deterministic without reaching into the modules. `onnxInitTimeoutMs` exists
+ * so a test can prove the wedged-runtime fallback without waiting ten seconds.
  */
 function createLocalEngine(opts) {
   opts = opts || {};
   const dataDir = opts.dataDir || path.join(__dirname, "..", "..", "data");
   const post = opts.post || (() => {});
   const rng = opts.rng || Math.random;
+  const onnxInitTimeoutMs = Number(opts.onnxInitTimeoutMs) > 0 ? Number(opts.onnxInitTimeoutMs) : ONNX_INIT_TIMEOUT_MS;
 
   const CORPORA_PATH = path.join(dataDir, "markov_corpora_t.json");
   const VOCAB_PATH = path.join(dataDir, "jazznet", "vocab.json");
@@ -107,13 +131,26 @@ function createLocalEngine(opts) {
    * Load the ONNX graphs, or fall back to the pure-JS forward pass. Both models
    * or neither: a half-loaded pair would let Model=rnn work and Model=lstm
    * throw mid-performance.
+   *
+   * The ONNX attempt races a clock, because only a REJECTION reaches the catch
+   * below. A native session that wedges rather than throwing — the classic
+   * symptom of an unsupported CPU — never rejects, so init() would stay pending
+   * forever, the panel amber on "loading models", and this fallback unreachable
+   * on exactly the machines it exists to serve. A false timeout costs only
+   * speed: the JS pass matches ONNX to ~5e-6.
    */
   async function loadBackends() {
     try {
       const r = createOnnxBackend({ model: "rnn", dataDir });
-      await r.init();
       const l = createOnnxBackend({ model: "lstm", dataDir });
-      await l.init();
+      await withTimeout(
+        (async () => {
+          await r.init();
+          await l.init();
+        })(),
+        onnxInitTimeoutMs,
+        "onnx backend init",
+      );
       return { kind: "onnx", rnn: r, lstm: l };
     } catch (onnxErr) {
       post(`onnx backend unavailable (${onnxErr.message || onnxErr}); using the pure-JS forward pass`);

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run test:bridge && npm run test:engine && npm run test:device && npm run test:fallback",
     "test:bridge": "node chord_parser.test.js && node performance_map.test.js && node backend_supervisor.test.js",
-    "test:engine": "node engine/chord_vocab.test.js && node engine/notation.test.js && node engine/chord_simplifier.test.js && node engine/vocab.test.js && node engine/rng.test.js && node engine/neural_backend.test.js && node engine/neural_engine.test.js && node engine/markov_blend.test.js && node engine/phrase_engine.test.js && node engine/local_engine.test.js",
+    "test:engine": "node engine/chord_vocab.test.js && node engine/notation.test.js && node engine/chord_simplifier.test.js && node engine/vocab.test.js && node engine/rng.test.js && node engine/neural_backend.test.js && node engine/neural_engine.test.js && node engine/markov_blend.test.js && node engine/phrase_engine.test.js && node engine/local_engine.test.js && node engine/local_engine_timeout.test.js",
     "test:device": "node onnx_device_e2e.js",
     "test:fallback": "node --require ./no_onnx.js onnx_device_e2e.js"
   },
