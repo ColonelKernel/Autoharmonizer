@@ -1,0 +1,9 @@
+python-osc>=1.8.0
+pytest>=8.0.0
+
+# Build-time only: scripts/build_bach_markov.py ingests the Bach chorales.
+# The runtime OSC service does NOT import music21 (it reads the prebuilt JSON).
+music21>=9.0.0
+
+# JazzNet RNN/LSTM engines (loaded only when the Model dial selects rnn/lstm).
+torch>=2.0.0

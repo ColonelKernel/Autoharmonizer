@@ -1,0 +1,1974 @@
+[
+{
+"chord": "A",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "Amaj",
+"out": "A:maj"
+},
+{
+"chord": "Amin",
+"out": "A:min"
+},
+{
+"chord": "Amaj7",
+"out": "A:maj7"
+},
+{
+"chord": "Amin7",
+"out": "A:min7"
+},
+{
+"chord": "A7",
+"out": "A:7"
+},
+{
+"chord": "Ah",
+"out": "A:hdim7"
+},
+{
+"chord": "Ao",
+"out": "A:dim7"
+},
+{
+"chord": "Adim",
+"out": "A:maj"
+},
+{
+"chord": "Aaug",
+"out": "A:maj"
+},
+{
+"chord": "Asus2",
+"out": "A:maj"
+},
+{
+"chord": "Asus4",
+"out": "A:maj"
+},
+{
+"chord": "A9",
+"out": "A:maj"
+},
+{
+"chord": "A13",
+"out": "A:maj"
+},
+{
+"chord": "Aadd9",
+"out": "A:maj"
+},
+{
+"chord": "A6",
+"out": "A:maj"
+},
+{
+"chord": "Am7b5",
+"out": "A:7"
+},
+{
+"chord": "Ahdim7",
+"out": "A:hdim7"
+},
+{
+"chord": "Adim7",
+"out": "A:7"
+},
+{
+"chord": "Amaj9",
+"out": "A:maj"
+},
+{
+"chord": "A/G",
+"out": "A:maj"
+},
+{
+"chord": "A/E",
+"out": "A:maj"
+},
+{
+"chord": "A^maj7",
+"out": "A:maj7"
+},
+{
+"chord": "A*7",
+"out": "A:7"
+},
+{
+"chord": "A;min",
+"out": "A:min"
+},
+{
+"chord": "A+9",
+"out": "A:maj"
+},
+{
+"chord": "Amin7^",
+"out": "A:min7"
+},
+{
+"chord": "A7*",
+"out": "A:7"
+},
+{
+"chord": "B",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "Bmaj",
+"out": "B:maj"
+},
+{
+"chord": "Bmin",
+"out": "B:min"
+},
+{
+"chord": "Bmaj7",
+"out": "B:maj7"
+},
+{
+"chord": "Bmin7",
+"out": "B:min7"
+},
+{
+"chord": "B7",
+"out": "B:7"
+},
+{
+"chord": "Bh",
+"out": "B:hdim7"
+},
+{
+"chord": "Bo",
+"out": "B:dim7"
+},
+{
+"chord": "Bdim",
+"out": "B:maj"
+},
+{
+"chord": "Baug",
+"out": "B:maj"
+},
+{
+"chord": "Bsus2",
+"out": "B:maj"
+},
+{
+"chord": "Bsus4",
+"out": "B:maj"
+},
+{
+"chord": "B9",
+"out": "B:maj"
+},
+{
+"chord": "B13",
+"out": "B:maj"
+},
+{
+"chord": "Badd9",
+"out": "B:maj"
+},
+{
+"chord": "B6",
+"out": "B:maj"
+},
+{
+"chord": "Bm7b5",
+"out": "B:7"
+},
+{
+"chord": "Bhdim7",
+"out": "B:hdim7"
+},
+{
+"chord": "Bdim7",
+"out": "B:7"
+},
+{
+"chord": "Bmaj9",
+"out": "B:maj"
+},
+{
+"chord": "B/G",
+"out": "B:maj"
+},
+{
+"chord": "B/E",
+"out": "B:maj"
+},
+{
+"chord": "B^maj7",
+"out": "B:maj7"
+},
+{
+"chord": "B*7",
+"out": "B:7"
+},
+{
+"chord": "B;min",
+"out": "B:min"
+},
+{
+"chord": "B+9",
+"out": "B:maj"
+},
+{
+"chord": "Bmin7^",
+"out": "B:min7"
+},
+{
+"chord": "B7*",
+"out": "B:7"
+},
+{
+"chord": "C",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "Cmaj",
+"out": "C:maj"
+},
+{
+"chord": "Cmin",
+"out": "C:min"
+},
+{
+"chord": "Cmaj7",
+"out": "C:maj7"
+},
+{
+"chord": "Cmin7",
+"out": "C:min7"
+},
+{
+"chord": "C7",
+"out": "C:7"
+},
+{
+"chord": "Ch",
+"out": "C:hdim7"
+},
+{
+"chord": "Co",
+"out": "C:dim7"
+},
+{
+"chord": "Cdim",
+"out": "C:maj"
+},
+{
+"chord": "Caug",
+"out": "C:maj"
+},
+{
+"chord": "Csus2",
+"out": "C:maj"
+},
+{
+"chord": "Csus4",
+"out": "C:maj"
+},
+{
+"chord": "C9",
+"out": "C:maj"
+},
+{
+"chord": "C13",
+"out": "C:maj"
+},
+{
+"chord": "Cadd9",
+"out": "C:maj"
+},
+{
+"chord": "C6",
+"out": "C:maj"
+},
+{
+"chord": "Cm7b5",
+"out": "C:7"
+},
+{
+"chord": "Chdim7",
+"out": "C:hdim7"
+},
+{
+"chord": "Cdim7",
+"out": "C:7"
+},
+{
+"chord": "Cmaj9",
+"out": "C:maj"
+},
+{
+"chord": "C/G",
+"out": "C:maj"
+},
+{
+"chord": "C/E",
+"out": "C:maj"
+},
+{
+"chord": "C^maj7",
+"out": "C:maj7"
+},
+{
+"chord": "C*7",
+"out": "C:7"
+},
+{
+"chord": "C;min",
+"out": "C:min"
+},
+{
+"chord": "C+9",
+"out": "C:maj"
+},
+{
+"chord": "Cmin7^",
+"out": "C:min7"
+},
+{
+"chord": "C7*",
+"out": "C:7"
+},
+{
+"chord": "D",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "Dmaj",
+"out": "D:maj"
+},
+{
+"chord": "Dmin",
+"out": "D:min"
+},
+{
+"chord": "Dmaj7",
+"out": "D:maj7"
+},
+{
+"chord": "Dmin7",
+"out": "D:min7"
+},
+{
+"chord": "D7",
+"out": "D:7"
+},
+{
+"chord": "Dh",
+"out": "D:hdim7"
+},
+{
+"chord": "Do",
+"out": "D:dim7"
+},
+{
+"chord": "Ddim",
+"out": "D:maj"
+},
+{
+"chord": "Daug",
+"out": "D:maj"
+},
+{
+"chord": "Dsus2",
+"out": "D:maj"
+},
+{
+"chord": "Dsus4",
+"out": "D:maj"
+},
+{
+"chord": "D9",
+"out": "D:maj"
+},
+{
+"chord": "D13",
+"out": "D:maj"
+},
+{
+"chord": "Dadd9",
+"out": "D:maj"
+},
+{
+"chord": "D6",
+"out": "D:maj"
+},
+{
+"chord": "Dm7b5",
+"out": "D:7"
+},
+{
+"chord": "Dhdim7",
+"out": "D:hdim7"
+},
+{
+"chord": "Ddim7",
+"out": "D:7"
+},
+{
+"chord": "Dmaj9",
+"out": "D:maj"
+},
+{
+"chord": "D/G",
+"out": "D:maj"
+},
+{
+"chord": "D/E",
+"out": "D:maj"
+},
+{
+"chord": "D^maj7",
+"out": "D:maj7"
+},
+{
+"chord": "D*7",
+"out": "D:7"
+},
+{
+"chord": "D;min",
+"out": "D:min"
+},
+{
+"chord": "D+9",
+"out": "D:maj"
+},
+{
+"chord": "Dmin7^",
+"out": "D:min7"
+},
+{
+"chord": "D7*",
+"out": "D:7"
+},
+{
+"chord": "E",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "Emaj",
+"out": "E:maj"
+},
+{
+"chord": "Emin",
+"out": "E:min"
+},
+{
+"chord": "Emaj7",
+"out": "E:maj7"
+},
+{
+"chord": "Emin7",
+"out": "E:min7"
+},
+{
+"chord": "E7",
+"out": "E:7"
+},
+{
+"chord": "Eh",
+"out": "E:hdim7"
+},
+{
+"chord": "Eo",
+"out": "E:dim7"
+},
+{
+"chord": "Edim",
+"out": "E:maj"
+},
+{
+"chord": "Eaug",
+"out": "E:maj"
+},
+{
+"chord": "Esus2",
+"out": "E:maj"
+},
+{
+"chord": "Esus4",
+"out": "E:maj"
+},
+{
+"chord": "E9",
+"out": "E:maj"
+},
+{
+"chord": "E13",
+"out": "E:maj"
+},
+{
+"chord": "Eadd9",
+"out": "E:maj"
+},
+{
+"chord": "E6",
+"out": "E:maj"
+},
+{
+"chord": "Em7b5",
+"out": "E:7"
+},
+{
+"chord": "Ehdim7",
+"out": "E:hdim7"
+},
+{
+"chord": "Edim7",
+"out": "E:7"
+},
+{
+"chord": "Emaj9",
+"out": "E:maj"
+},
+{
+"chord": "E/G",
+"out": "E:maj"
+},
+{
+"chord": "E/E",
+"out": "E:maj"
+},
+{
+"chord": "E^maj7",
+"out": "E:maj7"
+},
+{
+"chord": "E*7",
+"out": "E:7"
+},
+{
+"chord": "E;min",
+"out": "E:min"
+},
+{
+"chord": "E+9",
+"out": "E:maj"
+},
+{
+"chord": "Emin7^",
+"out": "E:min7"
+},
+{
+"chord": "E7*",
+"out": "E:7"
+},
+{
+"chord": "F",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "Fmaj",
+"out": "F:maj"
+},
+{
+"chord": "Fmin",
+"out": "F:min"
+},
+{
+"chord": "Fmaj7",
+"out": "F:maj7"
+},
+{
+"chord": "Fmin7",
+"out": "F:min7"
+},
+{
+"chord": "F7",
+"out": "F:7"
+},
+{
+"chord": "Fh",
+"out": "F:hdim7"
+},
+{
+"chord": "Fo",
+"out": "F:dim7"
+},
+{
+"chord": "Fdim",
+"out": "F:maj"
+},
+{
+"chord": "Faug",
+"out": "F:maj"
+},
+{
+"chord": "Fsus2",
+"out": "F:maj"
+},
+{
+"chord": "Fsus4",
+"out": "F:maj"
+},
+{
+"chord": "F9",
+"out": "F:maj"
+},
+{
+"chord": "F13",
+"out": "F:maj"
+},
+{
+"chord": "Fadd9",
+"out": "F:maj"
+},
+{
+"chord": "F6",
+"out": "F:maj"
+},
+{
+"chord": "Fm7b5",
+"out": "F:7"
+},
+{
+"chord": "Fhdim7",
+"out": "F:hdim7"
+},
+{
+"chord": "Fdim7",
+"out": "F:7"
+},
+{
+"chord": "Fmaj9",
+"out": "F:maj"
+},
+{
+"chord": "F/G",
+"out": "F:maj"
+},
+{
+"chord": "F/E",
+"out": "F:maj"
+},
+{
+"chord": "F^maj7",
+"out": "F:maj7"
+},
+{
+"chord": "F*7",
+"out": "F:7"
+},
+{
+"chord": "F;min",
+"out": "F:min"
+},
+{
+"chord": "F+9",
+"out": "F:maj"
+},
+{
+"chord": "Fmin7^",
+"out": "F:min7"
+},
+{
+"chord": "F7*",
+"out": "F:7"
+},
+{
+"chord": "G",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "Gmaj",
+"out": "G:maj"
+},
+{
+"chord": "Gmin",
+"out": "G:min"
+},
+{
+"chord": "Gmaj7",
+"out": "G:maj7"
+},
+{
+"chord": "Gmin7",
+"out": "G:min7"
+},
+{
+"chord": "G7",
+"out": "G:7"
+},
+{
+"chord": "Gh",
+"out": "G:hdim7"
+},
+{
+"chord": "Go",
+"out": "G:dim7"
+},
+{
+"chord": "Gdim",
+"out": "G:maj"
+},
+{
+"chord": "Gaug",
+"out": "G:maj"
+},
+{
+"chord": "Gsus2",
+"out": "G:maj"
+},
+{
+"chord": "Gsus4",
+"out": "G:maj"
+},
+{
+"chord": "G9",
+"out": "G:maj"
+},
+{
+"chord": "G13",
+"out": "G:maj"
+},
+{
+"chord": "Gadd9",
+"out": "G:maj"
+},
+{
+"chord": "G6",
+"out": "G:maj"
+},
+{
+"chord": "Gm7b5",
+"out": "G:7"
+},
+{
+"chord": "Ghdim7",
+"out": "G:hdim7"
+},
+{
+"chord": "Gdim7",
+"out": "G:7"
+},
+{
+"chord": "Gmaj9",
+"out": "G:maj"
+},
+{
+"chord": "G/G",
+"out": "G:maj"
+},
+{
+"chord": "G/E",
+"out": "G:maj"
+},
+{
+"chord": "G^maj7",
+"out": "G:maj7"
+},
+{
+"chord": "G*7",
+"out": "G:7"
+},
+{
+"chord": "G;min",
+"out": "G:min"
+},
+{
+"chord": "G+9",
+"out": "G:maj"
+},
+{
+"chord": "Gmin7^",
+"out": "G:min7"
+},
+{
+"chord": "G7*",
+"out": "G:7"
+},
+{
+"chord": "A-",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "A-maj",
+"out": "A-:maj"
+},
+{
+"chord": "A-min",
+"out": "A-:min"
+},
+{
+"chord": "A-maj7",
+"out": "A-:maj7"
+},
+{
+"chord": "A-min7",
+"out": "A-:min7"
+},
+{
+"chord": "A-7",
+"out": "A-:7"
+},
+{
+"chord": "A-h",
+"out": "A-:hdim7"
+},
+{
+"chord": "A-o",
+"out": "A-:dim7"
+},
+{
+"chord": "A-dim",
+"out": "A-:maj"
+},
+{
+"chord": "A-aug",
+"out": "A-:maj"
+},
+{
+"chord": "A-sus2",
+"out": "A-:maj"
+},
+{
+"chord": "A-sus4",
+"out": "A-:maj"
+},
+{
+"chord": "A-9",
+"out": "A-:maj"
+},
+{
+"chord": "A-13",
+"out": "A-:maj"
+},
+{
+"chord": "A-add9",
+"out": "A-:maj"
+},
+{
+"chord": "A-6",
+"out": "A-:maj"
+},
+{
+"chord": "A-m7b5",
+"out": "A-:7"
+},
+{
+"chord": "A-hdim7",
+"out": "A-:hdim7"
+},
+{
+"chord": "A-dim7",
+"out": "A-:7"
+},
+{
+"chord": "A-maj9",
+"out": "A-:maj"
+},
+{
+"chord": "A-/G",
+"out": "A-:maj"
+},
+{
+"chord": "A-/E",
+"out": "A-:maj"
+},
+{
+"chord": "A-^maj7",
+"out": "A-:maj7"
+},
+{
+"chord": "A-*7",
+"out": "A-:7"
+},
+{
+"chord": "A-;min",
+"out": "A-:min"
+},
+{
+"chord": "A-+9",
+"out": "A-:maj"
+},
+{
+"chord": "A-min7^",
+"out": "A-:min7"
+},
+{
+"chord": "A-7*",
+"out": "A-:7"
+},
+{
+"chord": "B-",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "B-maj",
+"out": "B-:maj"
+},
+{
+"chord": "B-min",
+"out": "B-:min"
+},
+{
+"chord": "B-maj7",
+"out": "B-:maj7"
+},
+{
+"chord": "B-min7",
+"out": "B-:min7"
+},
+{
+"chord": "B-7",
+"out": "B-:7"
+},
+{
+"chord": "B-h",
+"out": "B-:hdim7"
+},
+{
+"chord": "B-o",
+"out": "B-:dim7"
+},
+{
+"chord": "B-dim",
+"out": "B-:maj"
+},
+{
+"chord": "B-aug",
+"out": "B-:maj"
+},
+{
+"chord": "B-sus2",
+"out": "B-:maj"
+},
+{
+"chord": "B-sus4",
+"out": "B-:maj"
+},
+{
+"chord": "B-9",
+"out": "B-:maj"
+},
+{
+"chord": "B-13",
+"out": "B-:maj"
+},
+{
+"chord": "B-add9",
+"out": "B-:maj"
+},
+{
+"chord": "B-6",
+"out": "B-:maj"
+},
+{
+"chord": "B-m7b5",
+"out": "B-:7"
+},
+{
+"chord": "B-hdim7",
+"out": "B-:hdim7"
+},
+{
+"chord": "B-dim7",
+"out": "B-:7"
+},
+{
+"chord": "B-maj9",
+"out": "B-:maj"
+},
+{
+"chord": "B-/G",
+"out": "B-:maj"
+},
+{
+"chord": "B-/E",
+"out": "B-:maj"
+},
+{
+"chord": "B-^maj7",
+"out": "B-:maj7"
+},
+{
+"chord": "B-*7",
+"out": "B-:7"
+},
+{
+"chord": "B-;min",
+"out": "B-:min"
+},
+{
+"chord": "B-+9",
+"out": "B-:maj"
+},
+{
+"chord": "B-min7^",
+"out": "B-:min7"
+},
+{
+"chord": "B-7*",
+"out": "B-:7"
+},
+{
+"chord": "D-",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "D-maj",
+"out": "D-:maj"
+},
+{
+"chord": "D-min",
+"out": "D-:min"
+},
+{
+"chord": "D-maj7",
+"out": "D-:maj7"
+},
+{
+"chord": "D-min7",
+"out": "D-:min7"
+},
+{
+"chord": "D-7",
+"out": "D-:7"
+},
+{
+"chord": "D-h",
+"out": "D-:hdim7"
+},
+{
+"chord": "D-o",
+"out": "D-:dim7"
+},
+{
+"chord": "D-dim",
+"out": "D-:maj"
+},
+{
+"chord": "D-aug",
+"out": "D-:maj"
+},
+{
+"chord": "D-sus2",
+"out": "D-:maj"
+},
+{
+"chord": "D-sus4",
+"out": "D-:maj"
+},
+{
+"chord": "D-9",
+"out": "D-:maj"
+},
+{
+"chord": "D-13",
+"out": "D-:maj"
+},
+{
+"chord": "D-add9",
+"out": "D-:maj"
+},
+{
+"chord": "D-6",
+"out": "D-:maj"
+},
+{
+"chord": "D-m7b5",
+"out": "D-:7"
+},
+{
+"chord": "D-hdim7",
+"out": "D-:hdim7"
+},
+{
+"chord": "D-dim7",
+"out": "D-:7"
+},
+{
+"chord": "D-maj9",
+"out": "D-:maj"
+},
+{
+"chord": "D-/G",
+"out": "D-:maj"
+},
+{
+"chord": "D-/E",
+"out": "D-:maj"
+},
+{
+"chord": "D-^maj7",
+"out": "D-:maj7"
+},
+{
+"chord": "D-*7",
+"out": "D-:7"
+},
+{
+"chord": "D-;min",
+"out": "D-:min"
+},
+{
+"chord": "D-+9",
+"out": "D-:maj"
+},
+{
+"chord": "D-min7^",
+"out": "D-:min7"
+},
+{
+"chord": "D-7*",
+"out": "D-:7"
+},
+{
+"chord": "E-",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "E-maj",
+"out": "E-:maj"
+},
+{
+"chord": "E-min",
+"out": "E-:min"
+},
+{
+"chord": "E-maj7",
+"out": "E-:maj7"
+},
+{
+"chord": "E-min7",
+"out": "E-:min7"
+},
+{
+"chord": "E-7",
+"out": "E-:7"
+},
+{
+"chord": "E-h",
+"out": "E-:hdim7"
+},
+{
+"chord": "E-o",
+"out": "E-:dim7"
+},
+{
+"chord": "E-dim",
+"out": "E-:maj"
+},
+{
+"chord": "E-aug",
+"out": "E-:maj"
+},
+{
+"chord": "E-sus2",
+"out": "E-:maj"
+},
+{
+"chord": "E-sus4",
+"out": "E-:maj"
+},
+{
+"chord": "E-9",
+"out": "E-:maj"
+},
+{
+"chord": "E-13",
+"out": "E-:maj"
+},
+{
+"chord": "E-add9",
+"out": "E-:maj"
+},
+{
+"chord": "E-6",
+"out": "E-:maj"
+},
+{
+"chord": "E-m7b5",
+"out": "E-:7"
+},
+{
+"chord": "E-hdim7",
+"out": "E-:hdim7"
+},
+{
+"chord": "E-dim7",
+"out": "E-:7"
+},
+{
+"chord": "E-maj9",
+"out": "E-:maj"
+},
+{
+"chord": "E-/G",
+"out": "E-:maj"
+},
+{
+"chord": "E-/E",
+"out": "E-:maj"
+},
+{
+"chord": "E-^maj7",
+"out": "E-:maj7"
+},
+{
+"chord": "E-*7",
+"out": "E-:7"
+},
+{
+"chord": "E-;min",
+"out": "E-:min"
+},
+{
+"chord": "E-+9",
+"out": "E-:maj"
+},
+{
+"chord": "E-min7^",
+"out": "E-:min7"
+},
+{
+"chord": "E-7*",
+"out": "E-:7"
+},
+{
+"chord": "G-",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "G-maj",
+"out": "G-:maj"
+},
+{
+"chord": "G-min",
+"out": "G-:min"
+},
+{
+"chord": "G-maj7",
+"out": "G-:maj7"
+},
+{
+"chord": "G-min7",
+"out": "G-:min7"
+},
+{
+"chord": "G-7",
+"out": "G-:7"
+},
+{
+"chord": "G-h",
+"out": "G-:hdim7"
+},
+{
+"chord": "G-o",
+"out": "G-:dim7"
+},
+{
+"chord": "G-dim",
+"out": "G-:maj"
+},
+{
+"chord": "G-aug",
+"out": "G-:maj"
+},
+{
+"chord": "G-sus2",
+"out": "G-:maj"
+},
+{
+"chord": "G-sus4",
+"out": "G-:maj"
+},
+{
+"chord": "G-9",
+"out": "G-:maj"
+},
+{
+"chord": "G-13",
+"out": "G-:maj"
+},
+{
+"chord": "G-add9",
+"out": "G-:maj"
+},
+{
+"chord": "G-6",
+"out": "G-:maj"
+},
+{
+"chord": "G-m7b5",
+"out": "G-:7"
+},
+{
+"chord": "G-hdim7",
+"out": "G-:hdim7"
+},
+{
+"chord": "G-dim7",
+"out": "G-:7"
+},
+{
+"chord": "G-maj9",
+"out": "G-:maj"
+},
+{
+"chord": "G-/G",
+"out": "G-:maj"
+},
+{
+"chord": "G-/E",
+"out": "G-:maj"
+},
+{
+"chord": "G-^maj7",
+"out": "G-:maj7"
+},
+{
+"chord": "G-*7",
+"out": "G-:7"
+},
+{
+"chord": "G-;min",
+"out": "G-:min"
+},
+{
+"chord": "G-+9",
+"out": "G-:maj"
+},
+{
+"chord": "G-min7^",
+"out": "G-:min7"
+},
+{
+"chord": "G-7*",
+"out": "G-:7"
+},
+{
+"chord": "A#",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "A#maj",
+"out": "A#:maj"
+},
+{
+"chord": "A#min",
+"out": "A#:min"
+},
+{
+"chord": "A#maj7",
+"out": "A#:maj7"
+},
+{
+"chord": "A#min7",
+"out": "A#:min7"
+},
+{
+"chord": "A#7",
+"out": "A#:7"
+},
+{
+"chord": "A#h",
+"out": "A#:hdim7"
+},
+{
+"chord": "A#o",
+"out": "A#:dim7"
+},
+{
+"chord": "A#dim",
+"out": "A#:maj"
+},
+{
+"chord": "A#aug",
+"out": "A#:maj"
+},
+{
+"chord": "A#sus2",
+"out": "A#:maj"
+},
+{
+"chord": "A#sus4",
+"out": "A#:maj"
+},
+{
+"chord": "A#9",
+"out": "A#:maj"
+},
+{
+"chord": "A#13",
+"out": "A#:maj"
+},
+{
+"chord": "A#add9",
+"out": "A#:maj"
+},
+{
+"chord": "A#6",
+"out": "A#:maj"
+},
+{
+"chord": "A#m7b5",
+"out": "A#:7"
+},
+{
+"chord": "A#hdim7",
+"out": "A#:hdim7"
+},
+{
+"chord": "A#dim7",
+"out": "A#:7"
+},
+{
+"chord": "A#maj9",
+"out": "A#:maj"
+},
+{
+"chord": "A#/G",
+"out": "A#:maj"
+},
+{
+"chord": "A#/E",
+"out": "A#:maj"
+},
+{
+"chord": "A#^maj7",
+"out": "A#:maj7"
+},
+{
+"chord": "A#*7",
+"out": "A#:7"
+},
+{
+"chord": "A#;min",
+"out": "A#:min"
+},
+{
+"chord": "A#+9",
+"out": "A#:maj"
+},
+{
+"chord": "A#min7^",
+"out": "A#:min7"
+},
+{
+"chord": "A#7*",
+"out": "A#:7"
+},
+{
+"chord": "C#",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "C#maj",
+"out": "C#:maj"
+},
+{
+"chord": "C#min",
+"out": "C#:min"
+},
+{
+"chord": "C#maj7",
+"out": "C#:maj7"
+},
+{
+"chord": "C#min7",
+"out": "C#:min7"
+},
+{
+"chord": "C#7",
+"out": "C#:7"
+},
+{
+"chord": "C#h",
+"out": "C#:hdim7"
+},
+{
+"chord": "C#o",
+"out": "C#:dim7"
+},
+{
+"chord": "C#dim",
+"out": "C#:maj"
+},
+{
+"chord": "C#aug",
+"out": "C#:maj"
+},
+{
+"chord": "C#sus2",
+"out": "C#:maj"
+},
+{
+"chord": "C#sus4",
+"out": "C#:maj"
+},
+{
+"chord": "C#9",
+"out": "C#:maj"
+},
+{
+"chord": "C#13",
+"out": "C#:maj"
+},
+{
+"chord": "C#add9",
+"out": "C#:maj"
+},
+{
+"chord": "C#6",
+"out": "C#:maj"
+},
+{
+"chord": "C#m7b5",
+"out": "C#:7"
+},
+{
+"chord": "C#hdim7",
+"out": "C#:hdim7"
+},
+{
+"chord": "C#dim7",
+"out": "C#:7"
+},
+{
+"chord": "C#maj9",
+"out": "C#:maj"
+},
+{
+"chord": "C#/G",
+"out": "C#:maj"
+},
+{
+"chord": "C#/E",
+"out": "C#:maj"
+},
+{
+"chord": "C#^maj7",
+"out": "C#:maj7"
+},
+{
+"chord": "C#*7",
+"out": "C#:7"
+},
+{
+"chord": "C#;min",
+"out": "C#:min"
+},
+{
+"chord": "C#+9",
+"out": "C#:maj"
+},
+{
+"chord": "C#min7^",
+"out": "C#:min7"
+},
+{
+"chord": "C#7*",
+"out": "C#:7"
+},
+{
+"chord": "F#",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "F#maj",
+"out": "F#:maj"
+},
+{
+"chord": "F#min",
+"out": "F#:min"
+},
+{
+"chord": "F#maj7",
+"out": "F#:maj7"
+},
+{
+"chord": "F#min7",
+"out": "F#:min7"
+},
+{
+"chord": "F#7",
+"out": "F#:7"
+},
+{
+"chord": "F#h",
+"out": "F#:hdim7"
+},
+{
+"chord": "F#o",
+"out": "F#:dim7"
+},
+{
+"chord": "F#dim",
+"out": "F#:maj"
+},
+{
+"chord": "F#aug",
+"out": "F#:maj"
+},
+{
+"chord": "F#sus2",
+"out": "F#:maj"
+},
+{
+"chord": "F#sus4",
+"out": "F#:maj"
+},
+{
+"chord": "F#9",
+"out": "F#:maj"
+},
+{
+"chord": "F#13",
+"out": "F#:maj"
+},
+{
+"chord": "F#add9",
+"out": "F#:maj"
+},
+{
+"chord": "F#6",
+"out": "F#:maj"
+},
+{
+"chord": "F#m7b5",
+"out": "F#:7"
+},
+{
+"chord": "F#hdim7",
+"out": "F#:hdim7"
+},
+{
+"chord": "F#dim7",
+"out": "F#:7"
+},
+{
+"chord": "F#maj9",
+"out": "F#:maj"
+},
+{
+"chord": "F#/G",
+"out": "F#:maj"
+},
+{
+"chord": "F#/E",
+"out": "F#:maj"
+},
+{
+"chord": "F#^maj7",
+"out": "F#:maj7"
+},
+{
+"chord": "F#*7",
+"out": "F#:7"
+},
+{
+"chord": "F#;min",
+"out": "F#:min"
+},
+{
+"chord": "F#+9",
+"out": "F#:maj"
+},
+{
+"chord": "F#min7^",
+"out": "F#:min7"
+},
+{
+"chord": "F#7*",
+"out": "F#:7"
+},
+{
+"chord": "G#",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "G#maj",
+"out": "G#:maj"
+},
+{
+"chord": "G#min",
+"out": "G#:min"
+},
+{
+"chord": "G#maj7",
+"out": "G#:maj7"
+},
+{
+"chord": "G#min7",
+"out": "G#:min7"
+},
+{
+"chord": "G#7",
+"out": "G#:7"
+},
+{
+"chord": "G#h",
+"out": "G#:hdim7"
+},
+{
+"chord": "G#o",
+"out": "G#:dim7"
+},
+{
+"chord": "G#dim",
+"out": "G#:maj"
+},
+{
+"chord": "G#aug",
+"out": "G#:maj"
+},
+{
+"chord": "G#sus2",
+"out": "G#:maj"
+},
+{
+"chord": "G#sus4",
+"out": "G#:maj"
+},
+{
+"chord": "G#9",
+"out": "G#:maj"
+},
+{
+"chord": "G#13",
+"out": "G#:maj"
+},
+{
+"chord": "G#add9",
+"out": "G#:maj"
+},
+{
+"chord": "G#6",
+"out": "G#:maj"
+},
+{
+"chord": "G#m7b5",
+"out": "G#:7"
+},
+{
+"chord": "G#hdim7",
+"out": "G#:hdim7"
+},
+{
+"chord": "G#dim7",
+"out": "G#:7"
+},
+{
+"chord": "G#maj9",
+"out": "G#:maj"
+},
+{
+"chord": "G#/G",
+"out": "G#:maj"
+},
+{
+"chord": "G#/E",
+"out": "G#:maj"
+},
+{
+"chord": "G#^maj7",
+"out": "G#:maj7"
+},
+{
+"chord": "G#*7",
+"out": "G#:7"
+},
+{
+"chord": "G#;min",
+"out": "G#:min"
+},
+{
+"chord": "G#+9",
+"out": "G#:maj"
+},
+{
+"chord": "G#min7^",
+"out": "G#:min7"
+},
+{
+"chord": "G#7*",
+"out": "G#:7"
+},
+{
+"chord": "C-",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "C-maj",
+"out": "C-:maj"
+},
+{
+"chord": "C-min",
+"out": "C-:min"
+},
+{
+"chord": "C-maj7",
+"out": "C-:maj7"
+},
+{
+"chord": "C-min7",
+"out": "C-:min7"
+},
+{
+"chord": "C-7",
+"out": "C-:7"
+},
+{
+"chord": "C-h",
+"out": "C-:hdim7"
+},
+{
+"chord": "C-o",
+"out": "C-:dim7"
+},
+{
+"chord": "C-dim",
+"out": "C-:maj"
+},
+{
+"chord": "C-aug",
+"out": "C-:maj"
+},
+{
+"chord": "C-sus2",
+"out": "C-:maj"
+},
+{
+"chord": "C-sus4",
+"out": "C-:maj"
+},
+{
+"chord": "C-9",
+"out": "C-:maj"
+},
+{
+"chord": "C-13",
+"out": "C-:maj"
+},
+{
+"chord": "C-add9",
+"out": "C-:maj"
+},
+{
+"chord": "C-6",
+"out": "C-:maj"
+},
+{
+"chord": "C-m7b5",
+"out": "C-:7"
+},
+{
+"chord": "C-hdim7",
+"out": "C-:hdim7"
+},
+{
+"chord": "C-dim7",
+"out": "C-:7"
+},
+{
+"chord": "C-maj9",
+"out": "C-:maj"
+},
+{
+"chord": "C-/G",
+"out": "C-:maj"
+},
+{
+"chord": "C-/E",
+"out": "C-:maj"
+},
+{
+"chord": "C-^maj7",
+"out": "C-:maj7"
+},
+{
+"chord": "C-*7",
+"out": "C-:7"
+},
+{
+"chord": "C-;min",
+"out": "C-:min"
+},
+{
+"chord": "C-+9",
+"out": "C-:maj"
+},
+{
+"chord": "C-min7^",
+"out": "C-:min7"
+},
+{
+"chord": "C-7*",
+"out": "C-:7"
+},
+{
+"chord": "",
+"out": ":maj"
+},
+{
+"chord": "r",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "r1",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "rest",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "N",
+"out": "N:maj"
+},
+{
+"chord": "C-",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "B-",
+"out": "Invalid/No Chord"
+},
+{
+"chord": "H",
+"out": "H:maj"
+},
+{
+"chord": "Q",
+"out": "Q:maj"
+},
+{
+"chord": "Cmaj7/E",
+"out": "C:maj7"
+},
+{
+"chord": "Fsus4",
+"out": "F:maj"
+},
+{
+"chord": "Gadd9",
+"out": "G:maj"
+},
+{
+"chord": "Ao",
+"out": "A:dim7"
+},
+{
+"chord": "Bh",
+"out": "B:hdim7"
+},
+{
+"chord": "Ebmaj7",
+"out": "E:maj7"
+},
+{
+"chord": "F#m7",
+"out": "F#:7"
+},
+{
+"chord": null,
+"out": "Invalid/No Chord"
+}
+]

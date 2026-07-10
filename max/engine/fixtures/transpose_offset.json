@@ -1,0 +1,132 @@
+[
+{
+"tonicPc": 0,
+"mode": "maj",
+"out": 0
+},
+{
+"tonicPc": 0,
+"mode": "min",
+"out": -3
+},
+{
+"tonicPc": 1,
+"mode": "maj",
+"out": -1
+},
+{
+"tonicPc": 1,
+"mode": "min",
+"out": -4
+},
+{
+"tonicPc": 2,
+"mode": "maj",
+"out": -2
+},
+{
+"tonicPc": 2,
+"mode": "min",
+"out": -5
+},
+{
+"tonicPc": 3,
+"mode": "maj",
+"out": -3
+},
+{
+"tonicPc": 3,
+"mode": "min",
+"out": 6
+},
+{
+"tonicPc": 4,
+"mode": "maj",
+"out": -4
+},
+{
+"tonicPc": 4,
+"mode": "min",
+"out": 5
+},
+{
+"tonicPc": 5,
+"mode": "maj",
+"out": -5
+},
+{
+"tonicPc": 5,
+"mode": "min",
+"out": 4
+},
+{
+"tonicPc": 6,
+"mode": "maj",
+"out": 6
+},
+{
+"tonicPc": 6,
+"mode": "min",
+"out": 3
+},
+{
+"tonicPc": 7,
+"mode": "maj",
+"out": 5
+},
+{
+"tonicPc": 7,
+"mode": "min",
+"out": 2
+},
+{
+"tonicPc": 8,
+"mode": "maj",
+"out": 4
+},
+{
+"tonicPc": 8,
+"mode": "min",
+"out": 1
+},
+{
+"tonicPc": 9,
+"mode": "maj",
+"out": 3
+},
+{
+"tonicPc": 9,
+"mode": "min",
+"out": 0
+},
+{
+"tonicPc": 10,
+"mode": "maj",
+"out": 2
+},
+{
+"tonicPc": 10,
+"mode": "min",
+"out": -1
+},
+{
+"tonicPc": 11,
+"mode": "maj",
+"out": 1
+},
+{
+"tonicPc": 11,
+"mode": "min",
+"out": -2
+},
+{
+"tonicPc": null,
+"mode": "maj",
+"out": null
+},
+{
+"tonicPc": null,
+"mode": "min",
+"out": null
+}
+]

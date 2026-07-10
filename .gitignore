@@ -1,0 +1,27 @@
+# Node for Max resolves require("node-osc") and require("onnxruntime-node") from
+# max/node_modules at DEVICE RUNTIME — build_amxd.js does not embed the JS or its
+# deps, so the device ships as this folder, not as a standalone .amxd. 261 MB of
+# it is onnxruntime-node's native binaries for three platforms. Restore with:
+#     cd max && npm install
+# package.json and package-lock.json are tracked, so the install is reproducible.
+max/node_modules/
+
+# Python bytecode and test caches — regenerated on every run.
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS Finder metadata.
+.DS_Store
+
+# Machine-local Claude Code permission grants; they hard-code absolute paths on
+# one developer's Mac. The rest of .claude/ is tracked if it ever gains content.
+.claude/settings.local.json
+
+# NOT ignored, deliberately:
+#   *.amxd      built by `node build_amxd.js`, but a Max for Live user needs the
+#               device and cannot build it without Node — ship the artifact.
+#   data/**     model checkpoints (.pt), ONNX graphs, JS weights, corpora and
+#               parity fixtures. Largest is 2.81 MB; total ~10 MB. No LFS needed.
+#   max/engine/fixtures/**   Python-generated parity fixtures; the JS engine's
+#               tests are worthless without them.
