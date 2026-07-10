@@ -2,7 +2,7 @@
 """Train the phrase model: an observed-state, explicit-duration (semi-Markov)
 chain over ROOT MOTION, from data/jazznet/chords.json.
 
-Why this shape (see docs/phrase_model.md for the full argument):
+Why this shape (the full argument follows):
 
   * The SEQUENCE, not the chord, is the unit. Each training sequence is
     run-length-encoded into (quality, duration_beats, onset_beat) segments —

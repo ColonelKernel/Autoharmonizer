@@ -77,8 +77,8 @@ addresses it doesn't display, so nothing breaks).
 
 ## Verification
 
-- `cd python && python3 -m pytest -q` → **80 passed** (corpus blend, Markov,
-  OSC round-trips, notation, and the new neural-session tests).
+- `cd python && python3 -m pytest -q` → **152 passed** (corpus blend, Markov,
+  OSC round-trips, notation, ONNX parity, the phrase engine, and the neural-session tests).
 - End-to-end over real localhost UDP (driven like the Max device): markov
   generation, live switch to rnn/lstm, **stateful session stepping** (step count
   advances), clean `Bb`-style spelling to the parser, and all Spice/session

@@ -6,9 +6,9 @@
 > `autoharmonizer-max` repo. Start here: **[COMBINED_DEVICE.md](COMBINED_DEVICE.md)**.
 > The sections below are the original UPF docs (the Markov / corpus-blend side).
 
-A local Max + Python system that sends one chord symbol to a Python service over OSC/UDP and receives one next chord sampled from a first-order Markov chain. Chord labels (e.g. `G:7`, `C:maj7`) are treated as opaque strings in v1.
+A local Max + Python system that sends one chord symbol to a Python service over OSC/UDP and receives one next chord sampled from a first-order Markov chain. Chord labels (e.g. `G:7`, `C:maj7`) are treated as opaque strings. There is also a Python-free path — the ONNX devices in [ONNX_DEVICE.md](ONNX_DEVICE.md) run generation entirely inside Max.
 
-**Protocol version:** v1  
+**Protocol version:** v3 — see [COMBINED_DEVICE.md](COMBINED_DEVICE.md). The Markov / corpus-blend behavior described below is the original v1 core, unchanged inside the v3 backend.
 **Canonical spec:** [PLAN.md](PLAN.md)
 
 ## How it works
@@ -187,12 +187,13 @@ generator via an `EngineRegistry` (`python/src/engines/`):
 The neural engines are the [JazzNet](https://github.com/scalzadonna/JazzNet)
 baselines. Two integration details:
 
-- **Weights are fetched, not committed.** Run once:
+- **Weights are committed** under `data/jazznet/checkpoints/{rnn,lstm}/*.pt`, so
+  the neural models work out of the box. To re-fetch them from scratch:
   ```bash
   python3 scripts/fetch_jazznet_assets.py   # -> data/jazznet/checkpoints/{rnn,lstm}/*.pt
   ```
-  Without them, selecting `rnn`/`lstm` reports "unavailable" and the service
-  stays on Markov (never breaks).
+  If they are ever missing, selecting `rnn`/`lstm` reports "unavailable" and the
+  service stays on Markov (never breaks).
 - **Stateful, de-repeated.** JazzNet is frame-wise (a single `[BOS, chord]`
   context echoes the input), so `engines/registry.py` drives each neural engine
   with a rolling context and skips immediate repeats — each `/chord/input`
@@ -217,7 +218,7 @@ Tests cover CSV loading, Markov sampling, fallback behavior, and localhost OSC r
 ```text
 autoharmonizer-max/
 ├── README.md                          # This file
-├── PLAN.md                            # Canonical implementation spec (protocol v1)
+├── PLAN.md                            # Canonical spec for the v1 Markov core (v3 adds on top)
 │
 ├── data/
 │   ├── markov_openbook.csv            # Default transition corpus (~900 rows, 89 sources)

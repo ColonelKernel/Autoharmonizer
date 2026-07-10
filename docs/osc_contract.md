@@ -1,4 +1,4 @@
-# OSC contract mirror — canonical spec is ../PLAN.md (protocol v1)
+# OSC contract mirror (protocol v3) — v1 core spec is ../PLAN.md
 
 See [PLAN.md](../PLAN.md) sections **OSC contract** and **Max OSC stack**.
 
@@ -26,6 +26,7 @@ patch that never sends them keeps the startup defaults. See
 | Max → Python | `/control/adventure` | float `0..1` | Temperature: common → rare/surprising |
 | Max → Python | `/control/spice` | float `0..1` | Macro — drives Color and Adventure together |
 | Max → Python | `/control/key` | string | Song key (`C:maj` / `A:min`) for transposition |
+| Max → Python | `/control/gravity` | float `0..1` | Harmonic gravity — cadence pull toward tonic/dominant |
 | Max → Python | `/control/model` | string | Generative backend: `markov` / `rnn` / `lstm` (all live; JazzNet loaded on demand) |
 | Python → Max | `/debug/mix` | string | Effective corpus weights (debug mode only) |
 
@@ -37,6 +38,8 @@ compatible — the Max device ignores any status address it doesn't display.
 | Direction | Address | Payload | Purpose |
 |---|---|---|---|
 | Max → Python | `/control/session` | string | `auto` \| `stateless` \| `session` \| `reset` |
+| Max → Python | `/phrase/request` | `key bars [cadence] [seed]` | Ask the phrase engine for a whole `bars`-long progression |
+| Python → Max | `/phrase/output` | string | The generated phrase (reply to `/phrase/request`) |
 | Python → Max | `/status/model` | string | Active model, echoed on ping / switch / ready |
 | Python → Max | `/status/session` | string + int | Effective mode (`session`/`stateless`) + step count |
 

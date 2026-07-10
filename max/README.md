@@ -1,4 +1,4 @@
-# Chord Markov Max Device (protocol v1) — triad sonification
+# Chord Markov Max Device (protocol v3) — triad sonification
 
 Standalone Max/MSP patch that sends chord symbols to the Python Markov OSC
 service, **displays the sampled reply, parses it into MIDI, and plays it** as a
@@ -124,7 +124,11 @@ classes from interval patterns, and voices the chord.
 - **No chord:** `N.C.` / `NC` / `no_chord` → silence (emits `stop`, no notes).
 - **Errors:** unknown symbols emit `error <code> <symbol>` and **no** MIDI.
 
-Run the parser tests: `npm test` (from this folder).
+Run the full test matrix: `npm test` (from this folder) — bridge (parser,
+performance map, supervisor), engine (the ported corpus/neural/phrase modules),
+and the two Python-free device end-to-end runs (`test:device`, `test:fallback`).
+See [../ONNX_DEVICE.md](../ONNX_DEVICE.md) for the in-process ONNX devices, their
+`build_onnx_patches.py` generator, and the `no_onnx.js` fallback harness.
 
 ## Default ports
 
@@ -166,7 +170,10 @@ Ports are set in `markov_osc.js`. Change them there if you use non-default Pytho
 | `notes <midi ...>` | playable triad MIDI note list |
 | `stop` | silence held notes (N.C. / panic) |
 
-The OSC protocol to/from **Python is unchanged (v1)**.
+The Node→Max message protocol (`status/output/error/chord/notes/stop`) is
+unchanged; the OSC contract to/from Python is **v3** (adds `/control/model`,
+`/control/session`, `/control/gravity`, and `/phrase/request`). See
+[../docs/osc_contract.md](../docs/osc_contract.md).
 
 ## Sequencer device (`Chord Markov Sequencer.amxd`)
 

@@ -1,6 +1,6 @@
 # Max + Python OSC Markov Chord Generator Plan
 
-This document is the **canonical specification** for a Max device that communicates with a Python service over OSC/UDP to transform one input chord into one output chord using a first-order Markov chain stored in CSV. Protocol version: **v1**.
+This document is the original **v1 specification** for a Max device that communicates with a Python service over OSC/UDP to transform one input chord into one output chord using a first-order Markov chain stored in CSV. It remains the canonical description of that core. The shipped backend has since advanced to **protocol v3** (corpus blend + stateful RNN/LSTM + phrase engine); see [COMBINED_DEVICE.md](COMBINED_DEVICE.md) for what v3 adds on top of this.
 
 ## Objective
 
@@ -148,7 +148,7 @@ sampled chord back to the current key. Implementation: `python/src/blend.py`,
 - OSC addresses are stable and must not be renamed without updating both sides.
 - Error messages should be human-readable.
 - Debug messages must not be required for core operation.
-- Protocol version `v1` is recorded in Python constants and Max patch comments.
+- The protocol version is recorded in `python/src/config.py` (`PROTOCOL_VERSION`, now `v3`) and Max patch comments.
 - Duplicate sends from Max are acceptable; Python treats each `/chord/input` independently.
 - If Max does not receive `/chord/output` within 500 ms, it shows a timeout error and allows the user to retry.
 
