@@ -1,5 +1,9 @@
 # Autoharmonizer Max — Markov Chord Generator
 
+[![Web port: AutoHarm (live)](https://img.shields.io/badge/Web%20port-AutoHarm-2ea44f?logo=github&logoColor=white)](https://github.com/ColonelKernel/AutoHarm-Web)
+
+> A browser port of this device — same harmonic brain, no Max required — lives at [**AutoHarm-Web**](https://github.com/ColonelKernel/AutoHarm-Web) ([try it live](https://colonelkernel.github.io/AutoHarm-Web/)).
+
 > **This is the combined `FinalMaxUPF` build.** The rich UPF performer device
 > (`max/Chord Markov Sequencer (Spice).amxd`) now runs on the merged **protocol
 > v3** backend with stateful RNN/LSTM neural sessions taken from the
