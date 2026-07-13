@@ -140,6 +140,25 @@ def retarget(P, title):
         ids["obj-title"]["text"] = title
 
 
+def unregister_hidden_params(P):
+    """Strip Live-parameter registration from any control that is not shown.
+
+    A live.* object with parameter_enable=1 but presentation!=1 becomes a
+    phantom automation/mapping target in Live — a parameter with no visible
+    control. The base performer leaves three such dials (Major/Minor/Seventh)
+    hidden-but-registered. The ONNX devices are new, so we fix it here rather
+    than editing build_spice_patch.py, which would change a frozen device.
+    """
+    stripped = []
+    for b in P["boxes"]:
+        bx = b["box"]
+        if bx.get("parameter_enable") == 1 and bx.get("presentation") != 1:
+            bx["parameter_enable"] = 0
+            stripped.append(bx.get("id"))
+    if stripped:
+        print(f"  unregistered {len(stripped)} hidden phantom parameter(s): {', '.join(stripped)}")
+
+
 def apply_layout(P, layout, hide=()):
     ids = by_id(P)
     for box_id, rect in layout.items():
@@ -190,6 +209,13 @@ def validate_wiring(P, label):
             errs.append(f"duplicate live parameter longname {n!r}")
         seen.add(n)
 
+    # A registered-but-hidden control is a phantom Live parameter (see
+    # unregister_hidden_params). It must be stripped before this runs.
+    for b in P["boxes"]:
+        bx = b["box"]
+        if bx.get("parameter_enable") == 1 and bx.get("presentation") != 1:
+            errs.append(f"hidden box {bx.get('id')!r} still registered as a Live parameter")
+
     # build_amxd.js banks the first 8 parameters in BOX ORDER; a reorder would
     # silently rearrange the device's macro strip.
     if longnames[:8] != bsp.BANK0:
@@ -239,6 +265,7 @@ def validate(P, panel_w, panel_h, label):
 
 def write(doc, out, panel, label):
     P = doc["patcher"]
+    unregister_hidden_params(P)  # before validate_wiring, which now forbids phantoms
     P["openinpresentation"] = 1
     P["openrect"] = [0.0, 0.0, float(panel[0]), float(panel[1])]
     P["rect"] = [80.0, 80.0, float(panel[0] + 60), float(panel[1] + 80)]

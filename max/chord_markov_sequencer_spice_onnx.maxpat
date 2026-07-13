@@ -2045,7 +2045,7 @@
       "",
       "float"
      ],
-     "parameter_enable": 1,
+     "parameter_enable": 0,
      "patching_rect": [
       980,
       410,
@@ -2083,7 +2083,7 @@
       "",
       "float"
      ],
-     "parameter_enable": 1,
+     "parameter_enable": 0,
      "patching_rect": [
       1030,
       410,
@@ -2121,7 +2121,7 @@
       "",
       "float"
      ],
-     "parameter_enable": 1,
+     "parameter_enable": 0,
      "patching_rect": [
       1080,
       410,

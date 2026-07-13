@@ -204,6 +204,57 @@ const MODEL_NAMES = ["markov", "rnn", "lstm"];
   // === 4. HOLD / PANIC still behave =========================================
   check("stop emits playoff", sel("playoff").length >= 1);
 
+  // === 4b. ASYNC-RACE REGRESSIONS (confirmed adversarial-review findings) ====
+  // These are the bugs the generation counter fixes. Each opens the exact
+  // in-flight window the review described, then supersedes it, and asserts the
+  // stale reply is dropped. They pass vacuously unless sample()/generatePhrase()
+  // are genuinely async — which they are on the ONNX backend (session.run).
+
+  // Finding 1: a WALK reply that resolves after Stop must sound nothing.
+  handlers.modelidx(1); // rnn -> sample() awaits a native session.run
+  await settle();
+  handlers.phrasemode(2); // oneshot
+  handlers.seedsel(0);
+  handlers.play(1); // playerStart -> submitChord(seed) now in flight
+  handlers.play(0); // Stop BEFORE it resolves -> bumps genId, active=false
+  const afterStop = outlets.length;
+  await settle(30); // let the superseded reply resolve
+  const notesAfterStop = outlets.slice(afterStop).filter((o) => o[0] === "notes");
+  check("race: a walk reply resolving after Stop sounds nothing", notesAfterStop.length === 0, JSON.stringify(notesAfterStop));
+
+  // Findings 2 & 3: a PHRASE generation that resolves after Stop must not
+  // install, must not emit a chord, must not touch the display. On the pre-fix
+  // code emit("/phrase/output") ran unconditionally and did all three.
+  handlers.modelidx(3); // phrase
+  handlers.lenidx(1);
+  handlers.phrasemode(2); // oneshot
+  await settle();
+  const installsBefore = installs();
+  handlers.play(1); // requestPhrase in flight
+  handlers.play(0); // Stop before it resolves -> bumps genId
+  const afterPhraseStop = outlets.length;
+  await settle(30); // let the superseded generation resolve
+  check("race: a phrase resolving after Stop does not install", installs() === installsBefore, `${installs() - installsBefore} installs`);
+  const postStop = outlets.slice(afterPhraseStop);
+  check("race: a phrase resolving after Stop emits no chord/notes",
+    !postStop.some((o) => o[0] === "chord" || o[0] === "notes"), JSON.stringify(postStop.map((o) => o[0])));
+
+  // Finding 6 shares finding 1's mechanism (the genId check in submitChord), so
+  // it is covered by the walk-after-Stop case above; Reroll bumps the same
+  // counter Stop does. Confirm a fresh Reroll still supersedes cleanly and plays.
+  handlers.modelidx(3); handlers.phrasemode(0); await settle();
+  handlers.play(1); await settle(30);
+  handlers.reroll(); await settle(30);
+  const afterReroll = tick();
+  check("race: reroll after a settled phrase plays the new one", afterReroll.length === 1, JSON.stringify(afterReroll));
+  handlers.play(0);
+  await settle();
+
+  // Findings 2 & 3: the wall-clock reply timeout is gone, so it can never fire a
+  // spurious error or race the real reply into a seed-hold. Assert it never has.
+  check("race: no 'reply timeout' error was ever emitted",
+    !outlets.some((o) => o[0] === "error" && String(o[1]).includes("reply timeout")));
+
   // === 5. THE CENTRAL CLAIM =================================================
   check("no child process was spawned", !violations.some((v) => v.startsWith("child_process")));
   check("no UDP socket was opened", !violations.some((v) => v.startsWith("dgram")));

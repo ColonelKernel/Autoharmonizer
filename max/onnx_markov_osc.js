@@ -34,12 +34,16 @@ const parser = require("./chord_parser.js");
 const perf = require("./performance_map.js");
 const { createLocalEngine } = require("./engine/local_engine.js");
 
-// A local generation is sub-millisecond once the models are loaded; this only
-// guards the cold-start path (loading the ONNX graphs) and a promise that never
-// settles. It is not a network timeout — there is no network.
-const REPLY_TIMEOUT_MS = 2000;
-
-let replyTimer = null;
+// There is NO reply timeout here, and that is deliberate. In the Python bridge
+// a UDP reply could genuinely be lost, so a wall-clock timer held the seed. Here
+// every request is a Promise that always settles — it resolves with a chord/
+// phrase or rejects on a load failure (which the .catch turns into a seed hold).
+// A timer would only race the real reply: on a cold start it could fire first,
+// install the seed, and then demote the genuine phrase to a pre-fetch that
+// oneshot never plays. Correctness comes from GENERATION STAMPING instead
+// (player.genId): a reply is applied only if the run that asked for it is still
+// current, so a reply arriving after Stop / Reroll / a Key/Bars/Cadence change
+// is dropped rather than sounding a chord into a stopped transport.
 let manualPing = false; // echo 'ready' only for user-initiated pings
 
 // --- local engine lifecycle ----------------------------------------------
@@ -138,24 +142,17 @@ const player = {
   nextPlan: null,
   plan: null,
   cadence: 1.0,
+  // Every async request captures this at issue time; a reply whose stamp no
+  // longer matches belongs to a superseded run and is dropped. Bumped by any
+  // gesture that invalidates in-flight work: Start, Stop, Reroll, an engine/
+  // model switch, and the phrase-shaping params (Key, Bars, Cadence).
+  genId: 0,
 };
 
-function clearReplyTimeout() {
-  if (replyTimer) {
-    clearTimeout(replyTimer);
-    replyTimer = null;
-  }
-}
-
-function startReplyTimeout() {
-  clearReplyTimeout();
-  replyTimer = setTimeout(() => {
-    Max.outlet(["error", "reply timeout"]);
-    if (player.engine === "phrase" && player.active && !player.phraseReady) {
-      Max.post("phrase: no reply — holding the seed chord");
-      installPhrase([{ chord: player.seed, durBeats: player.lengthBars * 4 }]);
-    }
-  }, REPLY_TIMEOUT_MS);
+/** Invalidate every in-flight async request. Returns the new stamp. */
+function bumpGen() {
+  player.genId = (player.genId + 1) | 0;
+  return player.genId;
 }
 
 /**
@@ -202,7 +199,6 @@ function sonifyChord(symbol, source) {
  */
 function emit(address, args) {
   if (address === "/phrase/output") {
-    clearReplyTimeout();
     // Flat alternating list: chord, durBeats, chord, durBeats, ...
     const plan = [];
     for (let i = 0; i + 1 < args.length; i += 2) {
@@ -226,7 +222,6 @@ function emit(address, args) {
   }
 
   if (address === "/chord/output") {
-    clearReplyTimeout();
     const symbol = String(args[0] ?? "");
     Max.outlet(["output", symbol]);
     player.seed = symbol;
@@ -322,18 +317,20 @@ function submitChord(value) {
     Max.outlet(["error", "empty chord input"]);
     return;
   }
-  startReplyTimeout();
+  const gen = player.genId;
   withEngine()
     .then((e) => e.sample(v))
     .then((res) => {
-      clearReplyTimeout();
+      // Dropped if a Stop/Reroll/param change landed while this was in flight:
+      // sounding it now would voice a chord into a transport that has moved on.
+      if (gen !== player.genId) return;
       if (res.error) Max.outlet(["error", res.error]);
       if (res.output == null) return;
       emit("/chord/output", [res.output]);
       emitSessionStatus();
     })
     .catch((err) => {
-      clearReplyTimeout();
+      if (gen !== player.genId) return;
       Max.post(err.stack || err);
       Max.outlet(["error", String(err.message || err)]);
     });
@@ -464,10 +461,13 @@ function currentKey() {
 }
 
 /** A parameter that shapes the phrase changed: re-generate next cycle, and drop
- *  any pre-fetched phrase built from the old settings. */
+ *  any pre-fetched phrase built from the old settings — including one still in
+ *  flight (the genId bump makes its reply land in the wrong generation, so
+ *  emit() drops it instead of stashing a stale phrase in the new key/length). */
 function invalidatePhrase() {
   player.dirty = true;
   player.nextPlan = null;
+  bumpGen();
 }
 
 /**
@@ -479,7 +479,7 @@ function invalidatePhrase() {
  * tick that is still running, swallowing the phrase's first chord.
  */
 function requestPhrase() {
-  startReplyTimeout();
+  const gen = player.genId;
   withEngine()
     .then((e) => {
       const plan = e.generatePhrase({
@@ -493,10 +493,16 @@ function requestPhrase() {
         flat.push(chord);
         flat.push(dur);
       }
-      setImmediate(() => emit("/phrase/output", flat));
+      // A param change (Key/Bars/Cadence) or Stop/Reroll since we asked means
+      // this phrase is for the wrong context now; the current run will request
+      // its own. Deliver on a later turn so beginPhraseCycle's beat rewind has
+      // settled before installPhrase reads it.
+      setImmediate(() => {
+        if (gen === player.genId) emit("/phrase/output", flat);
+      });
     })
     .catch((err) => {
-      clearReplyTimeout();
+      if (gen !== player.genId) return;
       Max.post(`phrase generation failed: ${err.stack || err}`);
       Max.outlet(["error", `phrase generation failed: ${err.message || err}`]);
       // Never leave the clock gated forever: hold the seed for the whole phrase.
@@ -583,6 +589,7 @@ function phraseBeat() {
 }
 
 function playerStart() {
+  bumpGen(); // a fresh run; abandon any reply still owed to a previous one
   player.active = true;
   player.beat = -1;
   player.pending = null;
@@ -614,6 +621,7 @@ function playerStart() {
 
 function playerStop(reason) {
   if (!player.active) return; // idempotent — avoids playoff/toggle feedback loops
+  bumpGen(); // a chord/phrase reply resolving after this must NOT sound
   player.active = false;
   previousVoicing = null;
   Max.outlet(["stop"]); // silence held notes
@@ -626,6 +634,7 @@ function playerStop(reason) {
 /** Reroll: discard the captured phrase and walk a fresh one from the seed. */
 function playerReroll() {
   if (!player.active) return;
+  bumpGen(); // discard the in-flight successor/phrase; this reroll owns the next reply
   player.phrase.clear();
   player.capturing = true;
   player.beat = -1;
@@ -782,6 +791,7 @@ Max.addHandler("audition", () => sonifyChord(player.seed, "audition"));
 
 /** Switch the active model. Loading is instant — the weights are already in. */
 function sendModel(m) {
+  bumpGen(); // a successor picked by the OLD model must not land after the switch
   Max.outlet(["modelname", m]);
   withEngine()
     .then((e) => {

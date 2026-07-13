@@ -97,6 +97,35 @@ result through `setImmediate`. This is load-bearing, not cosmetic:
 install would leave it there for the tick still in flight, swallowing the
 phrase's first chord.
 
+### Concurrency: generation stamping, not a reply timeout
+
+The ONNX neural path is genuinely async — `session.run` resolves on a later
+event-loop turn — so a chord or phrase a performer asked for can come back *after*
+they have pressed Stop, hit Reroll, or moved Key / Bars / Cadence. Applying it
+then would voice a chord into a stopped transport or install a phrase in the wrong
+key.
+
+Every async request captures `player.genId` at issue time; a reply is applied
+only if that stamp still matches. `bumpGen()` is called by Start, Stop, Reroll, an
+engine/model switch, and the phrase-shaping params, so a reply from a superseded
+run is dropped silently. The `markov_osc.js` bridge does not need this — over UDP
+those replies were simply late packets — which is one more reason the two bridges
+are not merged.
+
+There is deliberately **no wall-clock reply timeout** here. In the UDP design a
+packet could be lost, so a timer held the seed. In-process, every request is a
+Promise that always settles: it resolves with a chord/phrase, or rejects on a
+load failure (which the `.catch` turns into a seed hold). A timer would only race
+the real reply — on a cold start it could fire first, install the seed, then
+demote the genuine phrase to a pre-fetch that oneshot never plays. Correctness
+comes from the promise settling plus the generation stamp instead.
+
+The one failure that a settling promise cannot cover is a native runtime that
+loads and then *wedges* — `InferenceSession.create` never returning. That is why
+`local_engine.js` wraps ONNX init in `withTimeout` (`onnxInitTimeoutMs`, default
+10 s): a wedge is bounded and degrades to the pure-JS forward pass, exercised by
+`engine/local_engine_timeout.test.js`.
+
 ## Panel differences
 
 The Relink button became **Reload**: with no Python to relink to, it rebuilds the
