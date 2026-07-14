@@ -1,0 +1,12962 @@
+[
+{
+"symbol": "C:maj",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "C:min",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:dim",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:sus2",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "C:sus4",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "C:maj7",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "C:min7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:hdim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:maj6",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "C:min6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:6",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "C:add9",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "C:madd9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:maj9",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "C:min9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:maj11",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "C:min11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:maj13",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "C:min13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:maj7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:maj",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:min",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:dim",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:sus2",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:sus4",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:maj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:min7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:hdim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:maj6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:min6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:add9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:madd9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:maj9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:min9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:maj11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:min11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:maj13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:min13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Db:maj7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:maj",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:min",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "D:dim",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:sus2",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "D:sus4",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "D:maj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:min7",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "D:7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:hdim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:maj6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:min6",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "D:6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:add9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:madd9",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "D:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:maj9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:min9",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "D:11",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "D:maj11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:min11",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "D:13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:maj13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:min13",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "D:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "D:maj7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:min",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:dim",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:sus2",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:sus4",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:min7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:hdim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:min6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:add9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:madd9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:min9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:min11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:min13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:maj",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:min",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "E:dim",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:sus2",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:sus4",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "E:maj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:min7",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "E:7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:hdim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:maj6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:min6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:add9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:madd9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:maj9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:min9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:maj11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:min11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:maj13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:min13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "E:maj7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:maj",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "F:min",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:dim",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:sus2",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "F:sus4",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:maj7",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "F:min7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:hdim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:maj6",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "F:min6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:6",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "F:add9",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "F:madd9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:maj9",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "F:min9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:maj11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:min11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:maj13",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "F:min13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F:maj7#11",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "F#:maj",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:min",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:dim",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:sus2",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:sus4",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:maj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:min7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:hdim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:maj6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:min6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:add9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:madd9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:maj9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:min9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:maj11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:min11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:maj13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:min13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "F#:maj7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:maj",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "G:min",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:dim",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:sus2",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "G:sus4",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "G:maj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:min7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:7",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "G:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:hdim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:maj6",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "G:min6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:6",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "G:add9",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "G:madd9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:9",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "G:maj9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:min9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:11",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "G:maj11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:min11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:13",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "G:maj13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:min13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "G:maj7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:min",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:dim",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:sus2",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:sus4",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:min7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:hdim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:min6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:add9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:madd9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:min9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:min11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:min13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:maj",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:min",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "A:dim",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:sus2",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "A:sus4",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "A:maj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:min7",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "A:7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:hdim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:maj6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:min6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:add9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:madd9",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "A:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:maj9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:min9",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "A:11",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "A:maj11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:min11",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "A:13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:maj13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:min13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "A:maj7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:min",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:dim",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:sus2",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:sus4",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:min7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:hdim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:min6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:add9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:madd9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:min9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:min11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:min13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:maj",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:min",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:dim",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "B:aug",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:sus2",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:sus4",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:maj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:min7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:dim7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:hdim7",
+"key": "C:maj",
+"out": true
+},
+{
+"symbol": "B:minmaj7",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:maj6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:min6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:6",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:add9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:madd9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:6/9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:maj9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:min9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:maj11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:min11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:maj13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:min13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:7b5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:7#5",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:7b9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:7#9",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:7b13",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:9#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:13#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "B:maj7#11",
+"key": "C:maj",
+"out": false
+},
+{
+"symbol": "C:maj",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "C:min",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:dim",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:aug",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "C:sus2",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "C:sus4",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "C:maj7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "C:min7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:dim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:hdim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:minmaj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:maj6",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "C:min6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:6",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "C:add9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "C:madd9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:maj9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "C:min9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:maj11",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "C:min11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:maj13",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "C:min13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:7#5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:7b9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:7#9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:7b13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:maj7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:maj",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:min",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:dim",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:aug",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:sus2",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:sus4",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:maj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:min7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:dim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:hdim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:minmaj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:maj6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:min6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:add9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:madd9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:maj9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:min9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:maj11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:min11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:maj13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:min13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:7#5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:7b9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:7#9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:7b13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Db:maj7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:maj",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:min",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:dim",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:aug",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:sus2",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:sus4",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:maj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:min7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:dim7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:hdim7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:minmaj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:maj6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:min6",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:add9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:madd9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:maj9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:min9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:11",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:maj11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:min11",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:maj13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:min13",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "D:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:7#5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:7b9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:7#9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:7b13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "D:maj7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:maj",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:min",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:dim",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:aug",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:sus2",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:sus4",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:maj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:min7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:dim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:hdim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:minmaj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:maj6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:min6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:add9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:madd9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:maj9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:min9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:maj11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:min11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:maj13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:min13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:7#5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:7b9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:7#9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:7b13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Eb:maj7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:maj",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "E:min",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "E:dim",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:aug",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "E:sus2",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:sus4",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "E:maj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:min7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "E:7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "E:dim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:hdim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:minmaj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:maj6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:min6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:add9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:madd9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:maj9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:min9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:maj11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:min11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:maj13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:min13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:7#5",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "E:7b9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "E:7#9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "E:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:7b13",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "E:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "E:maj7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:maj",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:min",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:dim",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:aug",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:sus2",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:sus4",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:maj7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:min7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:dim7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:hdim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:minmaj7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:maj6",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:min6",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:6",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:add9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:madd9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:maj9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:min9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:maj11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:min11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:maj13",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F:min13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:7#5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:7b9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:7#9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:7b13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F:maj7#11",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "F#:maj",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:min",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:dim",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:aug",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:sus2",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:sus4",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:maj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:min7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:dim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:hdim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:minmaj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:maj6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:min6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:add9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:madd9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:maj9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:min9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:maj11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:min11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:maj13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:min13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:7#5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:7b9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:7#9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:7b13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "F#:maj7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:maj",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "G:min",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:dim",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:aug",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:sus2",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "G:sus4",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "G:maj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:min7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "G:dim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:hdim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:minmaj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:maj6",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "G:min6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:6",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "G:add9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "G:madd9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "G:maj9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:min9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:11",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "G:maj11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:min11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:13",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "G:maj13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:min13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:7#5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:7b9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "G:7#9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:7b13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "G:maj7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:maj",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:min",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:dim",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "Ab:aug",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "Ab:sus2",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:sus4",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:maj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:min7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:dim7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "Ab:hdim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:minmaj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:maj6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:min6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:add9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:madd9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:maj9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:min9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:maj11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:min11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:maj13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:min13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:7#5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:7b9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:7#9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:7b13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Ab:maj7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:maj",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:min",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "A:dim",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:aug",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:sus2",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "A:sus4",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "A:maj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:min7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "A:7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:dim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:hdim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:minmaj7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "A:maj6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:min6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:add9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:madd9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "A:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:maj9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:min9",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "A:11",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "A:maj11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:min11",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "A:13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:maj13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:min13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:7#5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:7b9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:7#9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:7b13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "A:maj7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:maj",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:min",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:dim",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:aug",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:sus2",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:sus4",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:maj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:min7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:dim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:hdim7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:minmaj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:maj6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:min6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:add9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:madd9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:maj9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:min9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:maj11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:min11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:maj13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:min13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:7#5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:7b9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:7#9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:7b13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "Bb:maj7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:maj",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:min",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:dim",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "B:aug",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:sus2",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:sus4",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:maj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:min7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:dim7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "B:hdim7",
+"key": "A:min",
+"out": true
+},
+{
+"symbol": "B:minmaj7",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:maj6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:min6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:6",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:add9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:madd9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:6/9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:maj9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:min9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:maj11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:min11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:maj13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:min13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:7b5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:7#5",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:7b9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:7#9",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:7b13",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:9#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:13#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "B:maj7#11",
+"key": "A:min",
+"out": false
+},
+{
+"symbol": "C:maj",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:min",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "C:dim",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:sus2",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "C:sus4",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "C:maj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:min7",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "C:7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:hdim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:maj6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:min6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:add9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:madd9",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "C:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:maj9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:min9",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "C:11",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "C:maj11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:min11",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "C:13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:maj13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:min13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:maj7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:min",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:dim",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:sus2",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:sus4",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:min7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:hdim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:min6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:add9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:madd9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:min9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:min11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:min13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:maj",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:min",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:dim",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "D:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:sus2",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:sus4",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:maj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:min7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:hdim7",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "D:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:maj6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:min6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:add9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:madd9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:maj9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:min9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:maj11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:min11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:maj13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:min13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "D:maj7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Eb:min",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:dim",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:sus2",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Eb:sus4",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Eb:maj7",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Eb:min7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:hdim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj6",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Eb:min6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:6",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Eb:add9",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Eb:madd9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj9",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Eb:min9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj11",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Eb:min11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj13",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Eb:min13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:maj",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:min",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:dim",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:sus2",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:sus4",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:maj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:min7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:hdim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:maj6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:min6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:add9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:madd9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:maj9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:min9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:maj11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:min11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:maj13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:min13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "E:maj7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:maj",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:min",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "F:dim",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:sus2",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "F:sus4",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "F:maj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:min7",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "F:7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:hdim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:maj6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:min6",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "F:6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:add9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:madd9",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "F:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:maj9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:min9",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "F:11",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "F:maj11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:min11",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "F:13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:maj13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:min13",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "F:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F:maj7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:min",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:dim",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:sus2",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:sus4",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:min7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:hdim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:min6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:add9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:madd9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:min9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:min11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:min13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:maj",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:min",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "G:dim",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:sus2",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:sus4",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "G:maj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:min7",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "G:7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:hdim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:maj6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:min6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:add9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:madd9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:maj9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:min9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:maj11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:min11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:maj13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:min13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "G:maj7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Ab:min",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:dim",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:sus2",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Ab:sus4",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj7",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Ab:min7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:hdim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj6",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Ab:min6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:6",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Ab:add9",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Ab:madd9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj9",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Ab:min9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:min11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj13",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Ab:min13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj7#11",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "A:maj",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:min",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:dim",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:sus2",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:sus4",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:maj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:min7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:hdim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:maj6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:min6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:add9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:madd9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:maj9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:min9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:maj11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:min11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:maj13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:min13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "A:maj7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Bb:min",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:dim",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:sus2",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Bb:sus4",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Bb:maj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:min7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Bb:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:hdim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj6",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Bb:min6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:6",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Bb:add9",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Bb:madd9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:9",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Bb:maj9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:min9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:11",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Bb:maj11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:min11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:13",
+"key": "Eb:maj",
+"out": true
+},
+{
+"symbol": "Bb:maj13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:min13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:maj",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:min",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:dim",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:aug",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:sus2",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:sus4",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:maj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:min7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:dim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:hdim7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:minmaj7",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:maj6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:min6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:6",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:add9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:madd9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:6/9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:maj9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:min9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:maj11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:min11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:maj13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:min13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:7b5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:7#5",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:7b9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:7#9",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:7b13",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:9#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:13#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "B:maj7#11",
+"key": "Eb:maj",
+"out": false
+},
+{
+"symbol": "C:maj",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:min",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:dim",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:aug",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:sus2",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:sus4",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:maj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:min7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:dim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:hdim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:minmaj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:maj6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:min6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:add9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:madd9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:maj9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:min9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:maj11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:min11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:maj13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:min13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:7#5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:7b9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:7#9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:7b13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:maj7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:maj",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Db:min",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Db:dim",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:aug",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Db:sus2",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:sus4",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Db:maj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:min7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Db:7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Db:dim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:hdim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:minmaj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:maj6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:min6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:add9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:madd9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:maj9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:min9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:maj11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:min11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:maj13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:min13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:7#5",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Db:7b9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Db:7#9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Db:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:7b13",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Db:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Db:maj7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:maj",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:min",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:dim",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:aug",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:sus2",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:sus4",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:maj7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:min7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:dim7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:hdim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:minmaj7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:maj6",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:min6",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:6",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:add9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:madd9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:maj9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:min9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:maj11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:min11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:maj13",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "D:min13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:7#5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:7b9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:7#9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:7b13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "D:maj7#11",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Eb:maj",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:min",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:dim",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:aug",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:sus2",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:sus4",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:maj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:min7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:dim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:hdim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:minmaj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:maj6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:min6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:add9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:madd9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:maj9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:min9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:maj11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:min11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:maj13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:min13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:7#5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:7b9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:7#9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:7b13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Eb:maj7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:maj",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "E:min",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:dim",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:aug",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:sus2",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "E:sus4",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "E:maj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:min7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "E:dim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:hdim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:minmaj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:maj6",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "E:min6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:6",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "E:add9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "E:madd9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "E:maj9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:min9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:11",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "E:maj11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:min11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:13",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "E:maj13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:min13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:7#5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:7b9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "E:7#9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:7b13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "E:maj7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:maj",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:min",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:dim",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F:aug",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F:sus2",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:sus4",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:maj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:min7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:dim7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F:hdim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:minmaj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:maj6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:min6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:add9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:madd9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:maj9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:min9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:maj11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:min11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:maj13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:min13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:7#5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:7b9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:7#9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:7b13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F:maj7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:maj",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:min",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F#:dim",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:aug",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:sus2",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F#:sus4",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F#:maj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:min7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F#:7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:dim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:hdim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:minmaj7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F#:maj6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:min6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:add9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:madd9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F#:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:maj9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:min9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F#:11",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F#:maj11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:min11",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "F#:13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:maj13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:min13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:7#5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:7b9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:7#9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:7b13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "F#:maj7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:maj",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:min",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:dim",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:aug",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:sus2",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:sus4",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:maj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:min7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:dim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:hdim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:minmaj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:maj6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:min6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:add9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:madd9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:maj9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:min9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:maj11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:min11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:maj13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:min13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:7#5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:7b9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:7#9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:7b13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "G:maj7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:maj",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:min",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:dim",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Ab:aug",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:sus2",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:sus4",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:maj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:min7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:dim7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Ab:hdim7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "Ab:minmaj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:maj6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:min6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:add9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:madd9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:maj9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:min9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:maj11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:min11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:maj13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:min13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:7#5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:7b9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:7#9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:7b13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Ab:maj7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:maj",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "A:min",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:dim",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:aug",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "A:sus2",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "A:sus4",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "A:maj7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "A:min7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:dim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:hdim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:minmaj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:maj6",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "A:min6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:6",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "A:add9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "A:madd9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:maj9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "A:min9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:maj11",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "A:min11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:maj13",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "A:min13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:7#5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:7b9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:7#9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:7b13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "A:maj7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:maj",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:min",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:dim",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:aug",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:sus2",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:sus4",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:maj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:min7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:dim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:hdim7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:minmaj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:maj6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:min6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:add9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:madd9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:maj9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:min9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:maj11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:min11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:maj13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:min13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:7#5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:7b9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:7#9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:7b13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "Bb:maj7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:maj",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:min",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:dim",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:aug",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:sus2",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:sus4",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:maj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:min7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:dim7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:hdim7",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:minmaj7",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:maj6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:min6",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:6",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:add9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:madd9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:6/9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:maj9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:min9",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:11",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:maj11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:min11",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:maj13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:min13",
+"key": "F#:min",
+"out": true
+},
+{
+"symbol": "B:7b5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:7#5",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:7b9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:7#9",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:7b13",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:9#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:13#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "B:maj7#11",
+"key": "F#:min",
+"out": false
+},
+{
+"symbol": "C:maj",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "C:min",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:dim",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:sus2",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "C:sus4",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:maj7",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "C:min7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:hdim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:maj6",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "C:min6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:6",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "C:add9",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "C:madd9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:maj9",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "C:min9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:maj11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:min11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:maj13",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "C:min13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:maj7#11",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "Db:maj",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:min",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:dim",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:sus2",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:sus4",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:maj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:min7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:hdim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:maj6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:min6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:add9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:madd9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:maj9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:min9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:maj11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:min11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:maj13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:min13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Db:maj7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:maj",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "D:min",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:dim",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:sus2",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "D:sus4",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "D:maj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:min7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:7",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "D:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:hdim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:maj6",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "D:min6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:6",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "D:add9",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "D:madd9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:9",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "D:maj9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:min9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:11",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "D:maj11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:min11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:13",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "D:maj13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:min13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "D:maj7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:min",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:dim",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:sus2",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:sus4",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:min7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:hdim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:min6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:add9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:madd9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:min9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:min11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:min13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:maj",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:min",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "E:dim",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:sus2",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "E:sus4",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "E:maj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:min7",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "E:7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:hdim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:maj6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:min6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:add9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:madd9",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "E:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:maj9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:min9",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "E:11",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "E:maj11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:min11",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "E:13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:maj13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:min13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "E:maj7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:maj",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:min",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:dim",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:sus2",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:sus4",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:maj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:min7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:hdim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:maj6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:min6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:add9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:madd9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:maj9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:min9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:maj11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:min11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:maj13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:min13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F:maj7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:maj",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:min",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:dim",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "F#:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:sus2",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:sus4",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:maj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:min7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:hdim7",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "F#:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:maj6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:min6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:add9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:madd9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:maj9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:min9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:maj11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:min11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:maj13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:min13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "F#:maj7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:maj",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "G:min",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:dim",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:sus2",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "G:sus4",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "G:maj7",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "G:min7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:hdim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:maj6",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "G:min6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:6",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "G:add9",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "G:madd9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:maj9",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "G:min9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:maj11",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "G:min11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:maj13",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "G:min13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "G:maj7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:min",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:dim",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:sus2",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:sus4",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:min7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:hdim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:min6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:add9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:madd9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:min9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:min11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:min13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:maj",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:min",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "A:dim",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:sus2",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "A:sus4",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "A:maj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:min7",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "A:7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:hdim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:maj6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:min6",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "A:6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:add9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:madd9",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "A:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:maj9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:min9",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "A:11",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "A:maj11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:min11",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "A:13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:maj13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:min13",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "A:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "A:maj7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:min",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:dim",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:sus2",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:sus4",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:min7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:hdim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:min6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:add9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:madd9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:min9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:min11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:min13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:maj",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:min",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "B:dim",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:aug",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:sus2",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:sus4",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "B:maj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:min7",
+"key": "G:maj",
+"out": true
+},
+{
+"symbol": "B:7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:dim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:hdim7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:minmaj7",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:maj6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:min6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:6",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:add9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:madd9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:6/9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:maj9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:min9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:maj11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:min11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:maj13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:min13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:7b5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:7#5",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:7b9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:7#9",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:7b13",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:9#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:13#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "B:maj7#11",
+"key": "G:maj",
+"out": false
+},
+{
+"symbol": "C:maj",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:min",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "C:dim",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:sus2",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "C:sus4",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "C:maj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:min7",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "C:7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:hdim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:maj6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:min6",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "C:6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:add9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:madd9",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "C:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:maj9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:min9",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "C:11",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "C:maj11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:min11",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "C:13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:maj13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:min13",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "C:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "C:maj7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:min",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:dim",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:sus2",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:sus4",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:min7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:hdim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:min6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:add9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:madd9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:min9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:min11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:min13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Db:maj7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:maj",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:min",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "D:dim",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:sus2",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:sus4",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "D:maj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:min7",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "D:7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:hdim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:maj6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:min6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:add9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:madd9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:maj9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:min9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:maj11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:min11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:maj13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:min13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "D:maj7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Eb:min",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:dim",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:sus2",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Eb:sus4",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj7",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Eb:min7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:hdim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj6",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Eb:min6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:6",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Eb:add9",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Eb:madd9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj9",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Eb:min9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:min11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj13",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Eb:min13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Eb:maj7#11",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "E:maj",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:min",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:dim",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:sus2",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:sus4",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:maj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:min7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:hdim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:maj6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:min6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:add9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:madd9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:maj9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:min9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:maj11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:min11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:maj13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:min13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "E:maj7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:maj",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "F:min",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:dim",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:sus2",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "F:sus4",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "F:maj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:min7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:7",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "F:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:hdim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:maj6",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "F:min6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:6",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "F:add9",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "F:madd9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:9",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "F:maj9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:min9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:11",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "F:maj11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:min11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:13",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "F:maj13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:min13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F:maj7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:min",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:dim",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:sus2",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:sus4",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:min7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:hdim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:min6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:add9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:madd9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:min9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:min11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:min13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "F#:maj7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:maj",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:min",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "G:dim",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:sus2",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "G:sus4",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "G:maj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:min7",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "G:7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:hdim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:maj6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:min6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:add9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:madd9",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "G:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:maj9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:min9",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "G:11",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "G:maj11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:min11",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "G:13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:maj13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:min13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "G:maj7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:min",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:dim",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:sus2",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:sus4",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:min7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:hdim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:min6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:add9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:madd9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:min9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:min11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:min13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Ab:maj7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:maj",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:min",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:dim",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "A:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:sus2",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:sus4",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:maj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:min7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:hdim7",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "A:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:maj6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:min6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:add9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:madd9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:maj9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:min9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:maj11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:min11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:maj13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:min13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "A:maj7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Bb:min",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:dim",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:sus2",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Bb:sus4",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Bb:maj7",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Bb:min7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:hdim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj6",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Bb:min6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:6",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Bb:add9",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Bb:madd9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj9",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Bb:min9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj11",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Bb:min11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj13",
+"key": "Bb:maj",
+"out": true
+},
+{
+"symbol": "Bb:min13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "Bb:maj7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:maj",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:min",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:dim",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:aug",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:sus2",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:sus4",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:maj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:min7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:dim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:hdim7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:minmaj7",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:maj6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:min6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:6",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:add9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:madd9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:6/9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:maj9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:min9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:maj11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:min11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:maj13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:min13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:7b5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:7#5",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:7b9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:7#9",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:7#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:7b13",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:9#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:13#11",
+"key": "Bb:maj",
+"out": false
+},
+{
+"symbol": "B:maj7#11",
+"key": "Bb:maj",
+"out": false
+}
+]

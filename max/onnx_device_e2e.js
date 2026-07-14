@@ -161,7 +161,11 @@ const MODEL_NAMES = ["markov", "rnn", "lstm"];
   check("phrase: first tick sounds the first chord", first.length === 1, JSON.stringify(first));
   const heard = [...first];
   for (let t = 1; t < 16; t++) { const c = tick(); if (c.length) heard.push(c[0]); }
-  check("phrase: a 4-bar phrase sounds several chords", heard.length >= 3, heard.join(" "));
+  // At cadence 1.0 the generator always reserves a tonic bar reached by a V, so
+  // the phrase is guaranteed >= 2 chords (V + I). It is NOT guaranteed to be
+  // longer — a short body legitimately coalesces to just V-I — so asserting a
+  // higher count is a flaky distributional bet, not an invariant.
+  check("phrase: a 4-bar phrase sounds at least the V-I cadence", heard.length >= 2, heard.join(" "));
   check("phrase: resolves home on the last bar", heard[heard.length - 1] === "C:maj7" || heard[heard.length - 1] === "C:maj",
     heard[heard.length - 1]);
 

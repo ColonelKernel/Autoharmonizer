@@ -1,0 +1,62 @@
+[
+  {
+    "key": "C:maj",
+    "complexity": 0.0,
+    "mean_tier": 0.0
+  },
+  {
+    "key": "C:maj",
+    "complexity": 0.2,
+    "mean_tier": 0.321
+  },
+  {
+    "key": "C:maj",
+    "complexity": 0.4,
+    "mean_tier": 0.52425
+  },
+  {
+    "key": "C:maj",
+    "complexity": 0.6,
+    "mean_tier": 0.65475
+  },
+  {
+    "key": "C:maj",
+    "complexity": 0.8,
+    "mean_tier": 0.733
+  },
+  {
+    "key": "C:maj",
+    "complexity": 1.0,
+    "mean_tier": 0.7665
+  },
+  {
+    "key": "A:min",
+    "complexity": 0.0,
+    "mean_tier": 0.0
+  },
+  {
+    "key": "A:min",
+    "complexity": 0.2,
+    "mean_tier": 0.11175
+  },
+  {
+    "key": "A:min",
+    "complexity": 0.4,
+    "mean_tier": 0.79025
+  },
+  {
+    "key": "A:min",
+    "complexity": 0.6,
+    "mean_tier": 0.97475
+  },
+  {
+    "key": "A:min",
+    "complexity": 0.8,
+    "mean_tier": 1.024
+  },
+  {
+    "key": "A:min",
+    "complexity": 1.0,
+    "mean_tier": 1.05175
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "seq": [
+      "A",
+      "A",
+      "B",
+      "B",
+      "B",
+      "C"
+    ],
+    "history": [
+      "A",
+      "B",
+      "C"
+    ],
+    "max_order": 4
+  },
+  {
+    "seq": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "history": [
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "max_order": 4
+  },
+  {
+    "seq": [
+      "X"
+    ],
+    "history": [
+      "X"
+    ],
+    "max_order": 4
+  },
+  {
+    "seq": [
+      "A",
+      "A",
+      "A"
+    ],
+    "history": [
+      "A"
+    ],
+    "max_order": 4
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "inputs": [
+      "C:maj"
+    ],
+    "results": [
+      {
+        "input": "C:maj",
+        "output": "A:min7",
+        "probability": 0.14435146443514643,
+        "candidates": 46,
+        "fallback_used": false,
+        "error": null
+      }
+    ],
+    "history": [
+      "C:maj",
+      "A:min7"
+    ]
+  },
+  {
+    "inputs": [
+      "C:maj",
+      "D:7"
+    ],
+    "results": [
+      {
+        "input": "C:maj",
+        "output": "A:min7",
+        "probability": 0.14435146443514643,
+        "candidates": 46,
+        "fallback_used": false,
+        "error": null
+      },
+      {
+        "input": "D:7",
+        "output": "G:7",
+        "probability": 0.3333333333333333,
+        "candidates": 5,
+        "fallback_used": false,
+        "error": null
+      }
+    ],
+    "history": [
+      "C:maj",
+      "A:min7",
+      "D:7",
+      "G:7"
+    ]
+  },
+  {
+    "inputs": [
+      "Am",
+      "D:min7",
+      "G:7"
+    ],
+    "results": [
+      {
+        "input": "Am",
+        "output": "B:hdim7",
+        "probability": 0.0958904109589041,
+        "candidates": 36,
+        "fallback_used": false,
+        "error": null
+      },
+      {
+        "input": "D:min7",
+        "output": "G:7",
+        "probability": 0.6278280542986425,
+        "candidates": 48,
+        "fallback_used": false,
+        "error": null
+      },
+      {
+        "input": "G:7",
+        "output": "C:maj7",
+        "probability": 0.2932187201528176,
+        "candidates": 46,
+        "fallback_used": false,
+        "error": null
+      }
+    ],
+    "history": [
+      "B:hdim7",
+      "D:min7",
+      "G:7",
+      "C:maj7"
+    ]
+  },
+  {
+    "inputs": [
+      "Cmaj7"
+    ],
+    "results": [
+      {
+        "input": "Cmaj7",
+        "output": "A:min7",
+        "probability": 0.14303797468354432,
+        "candidates": 48,
+        "fallback_used": false,
+        "error": null
+      }
+    ],
+    "history": [
+      "C:maj7",
+      "A:min7"
+    ]
+  },
+  {
+    "inputs": [
+      "junk"
+    ],
+    "results": [
+      {
+        "input": "junk",
+        "output": "junk",
+        "probability": null,
+        "candidates": 0,
+        "fallback_used": true,
+        "error": "unknown chord: junk"
+      }
+    ],
+    "history": []
+  },
+  {
+    "inputs": [
+      "",
+      "C:maj"
+    ],
+    "results": [
+      {
+        "input": "",
+        "output": null,
+        "probability": null,
+        "candidates": 0,
+        "fallback_used": true,
+        "error": "unknown chord: "
+      },
+      {
+        "input": "C:maj",
+        "output": "A:min7",
+        "probability": 0.14435146443514643,
+        "candidates": 46,
+        "fallback_used": false,
+        "error": null
+      }
+    ],
+    "history": [
+      "C:maj",
+      "A:min7"
+    ]
+  }
+]

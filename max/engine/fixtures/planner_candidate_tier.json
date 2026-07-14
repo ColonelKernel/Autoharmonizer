@@ -1,0 +1,352 @@
+[
+  {
+    "symbol": "C:maj",
+    "key": "C:maj",
+    "tier": 0
+  },
+  {
+    "symbol": "D:min",
+    "key": "C:maj",
+    "tier": 0
+  },
+  {
+    "symbol": "E:min",
+    "key": "C:maj",
+    "tier": 0
+  },
+  {
+    "symbol": "F:maj",
+    "key": "C:maj",
+    "tier": 0
+  },
+  {
+    "symbol": "G:7",
+    "key": "C:maj",
+    "tier": 1
+  },
+  {
+    "symbol": "A:min",
+    "key": "C:maj",
+    "tier": 0
+  },
+  {
+    "symbol": "F:maj7",
+    "key": "C:maj",
+    "tier": 1
+  },
+  {
+    "symbol": "E:7",
+    "key": "C:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "Bb:maj",
+    "key": "C:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "C:13",
+    "key": "C:maj",
+    "tier": 3
+  },
+  {
+    "symbol": "Db:7",
+    "key": "C:maj",
+    "tier": 3
+  },
+  {
+    "symbol": "C:maj7#11",
+    "key": "C:maj",
+    "tier": 4
+  },
+  {
+    "symbol": "G:maj7",
+    "key": "C:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "B:dim",
+    "key": "C:maj",
+    "tier": 0
+  },
+  {
+    "symbol": "C:maj",
+    "key": "A:min",
+    "tier": 0
+  },
+  {
+    "symbol": "D:min",
+    "key": "A:min",
+    "tier": 0
+  },
+  {
+    "symbol": "E:min",
+    "key": "A:min",
+    "tier": 0
+  },
+  {
+    "symbol": "F:maj",
+    "key": "A:min",
+    "tier": 0
+  },
+  {
+    "symbol": "G:7",
+    "key": "A:min",
+    "tier": 2
+  },
+  {
+    "symbol": "A:min",
+    "key": "A:min",
+    "tier": 0
+  },
+  {
+    "symbol": "F:maj7",
+    "key": "A:min",
+    "tier": 1
+  },
+  {
+    "symbol": "E:7",
+    "key": "A:min",
+    "tier": 1
+  },
+  {
+    "symbol": "Bb:maj",
+    "key": "A:min",
+    "tier": 2
+  },
+  {
+    "symbol": "C:13",
+    "key": "A:min",
+    "tier": 3
+  },
+  {
+    "symbol": "Db:7",
+    "key": "A:min",
+    "tier": 2
+  },
+  {
+    "symbol": "C:maj7#11",
+    "key": "A:min",
+    "tier": 4
+  },
+  {
+    "symbol": "G:maj7",
+    "key": "A:min",
+    "tier": 2
+  },
+  {
+    "symbol": "B:dim",
+    "key": "A:min",
+    "tier": 0
+  },
+  {
+    "symbol": "C:maj",
+    "key": "Eb:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "D:min",
+    "key": "Eb:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "E:min",
+    "key": "Eb:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "F:maj",
+    "key": "Eb:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "G:7",
+    "key": "Eb:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "A:min",
+    "key": "Eb:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "F:maj7",
+    "key": "Eb:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "E:7",
+    "key": "Eb:maj",
+    "tier": 3
+  },
+  {
+    "symbol": "Bb:maj",
+    "key": "Eb:maj",
+    "tier": 0
+  },
+  {
+    "symbol": "C:13",
+    "key": "Eb:maj",
+    "tier": 3
+  },
+  {
+    "symbol": "Db:7",
+    "key": "Eb:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "C:maj7#11",
+    "key": "Eb:maj",
+    "tier": 4
+  },
+  {
+    "symbol": "G:maj7",
+    "key": "Eb:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "B:dim",
+    "key": "Eb:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "C:maj",
+    "key": "F#:min",
+    "tier": 2
+  },
+  {
+    "symbol": "D:min",
+    "key": "F#:min",
+    "tier": 0
+  },
+  {
+    "symbol": "E:min",
+    "key": "F#:min",
+    "tier": 2
+  },
+  {
+    "symbol": "F:maj",
+    "key": "F#:min",
+    "tier": 2
+  },
+  {
+    "symbol": "G:7",
+    "key": "F#:min",
+    "tier": 3
+  },
+  {
+    "symbol": "A:min",
+    "key": "F#:min",
+    "tier": 2
+  },
+  {
+    "symbol": "F:maj7",
+    "key": "F#:min",
+    "tier": 2
+  },
+  {
+    "symbol": "E:7",
+    "key": "F#:min",
+    "tier": 2
+  },
+  {
+    "symbol": "Bb:maj",
+    "key": "F#:min",
+    "tier": 2
+  },
+  {
+    "symbol": "C:13",
+    "key": "F#:min",
+    "tier": 3
+  },
+  {
+    "symbol": "Db:7",
+    "key": "F#:min",
+    "tier": 1
+  },
+  {
+    "symbol": "C:maj7#11",
+    "key": "F#:min",
+    "tier": 4
+  },
+  {
+    "symbol": "G:maj7",
+    "key": "F#:min",
+    "tier": 2
+  },
+  {
+    "symbol": "B:dim",
+    "key": "F#:min",
+    "tier": 0
+  },
+  {
+    "symbol": "C:maj",
+    "key": "G:maj",
+    "tier": 0
+  },
+  {
+    "symbol": "D:min",
+    "key": "G:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "E:min",
+    "key": "G:maj",
+    "tier": 0
+  },
+  {
+    "symbol": "F:maj",
+    "key": "G:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "G:7",
+    "key": "G:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "A:min",
+    "key": "G:maj",
+    "tier": 0
+  },
+  {
+    "symbol": "F:maj7",
+    "key": "G:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "E:7",
+    "key": "G:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "Bb:maj",
+    "key": "G:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "C:13",
+    "key": "G:maj",
+    "tier": 3
+  },
+  {
+    "symbol": "Db:7",
+    "key": "G:maj",
+    "tier": 2
+  },
+  {
+    "symbol": "C:maj7#11",
+    "key": "G:maj",
+    "tier": 4
+  },
+  {
+    "symbol": "G:maj7",
+    "key": "G:maj",
+    "tier": 1
+  },
+  {
+    "symbol": "B:dim",
+    "key": "G:maj",
+    "tier": 2
+  }
+]

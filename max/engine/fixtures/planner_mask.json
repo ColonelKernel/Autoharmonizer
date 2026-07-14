@@ -1,0 +1,386 @@
+[
+  {
+    "key": "C:maj",
+    "level": 0,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "A:min",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "C:maj",
+    "level": 1,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "C:maj",
+    "level": 2,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "C:maj",
+    "level": 3,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "C:13",
+      "Db:7",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "C:maj",
+    "level": 4,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "C:13",
+      "Db:7",
+      "C:maj7#11",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "A:min",
+    "level": 0,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "A:min",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "A:min",
+    "level": 1,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "A:min",
+    "level": 2,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "Db:7",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "A:min",
+    "level": 3,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "C:13",
+      "Db:7",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "A:min",
+    "level": 4,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "C:13",
+      "Db:7",
+      "C:maj7#11",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "Eb:maj",
+    "level": 0,
+    "permitted": [
+      "Bb:maj"
+    ]
+  },
+  {
+    "key": "Eb:maj",
+    "level": 1,
+    "permitted": [
+      "Bb:maj"
+    ]
+  },
+  {
+    "key": "Eb:maj",
+    "level": 2,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "Bb:maj",
+      "Db:7",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "Eb:maj",
+    "level": 3,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "C:13",
+      "Db:7",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "Eb:maj",
+    "level": 4,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "C:13",
+      "Db:7",
+      "C:maj7#11",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "F#:min",
+    "level": 0,
+    "permitted": [
+      "D:min",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "F#:min",
+    "level": 1,
+    "permitted": [
+      "D:min",
+      "Db:7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "F#:min",
+    "level": 2,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "Db:7",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "F#:min",
+    "level": 3,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "C:13",
+      "Db:7",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "F#:min",
+    "level": 4,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "C:13",
+      "Db:7",
+      "C:maj7#11",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "G:maj",
+    "level": 0,
+    "permitted": [
+      "C:maj",
+      "E:min",
+      "A:min"
+    ]
+  },
+  {
+    "key": "G:maj",
+    "level": 1,
+    "permitted": [
+      "C:maj",
+      "E:min",
+      "A:min",
+      "G:maj7"
+    ]
+  },
+  {
+    "key": "G:maj",
+    "level": 2,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "Db:7",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "G:maj",
+    "level": 3,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "C:13",
+      "Db:7",
+      "G:maj7",
+      "B:dim"
+    ]
+  },
+  {
+    "key": "G:maj",
+    "level": 4,
+    "permitted": [
+      "C:maj",
+      "D:min",
+      "E:min",
+      "F:maj",
+      "G:7",
+      "A:min",
+      "F:maj7",
+      "E:7",
+      "Bb:maj",
+      "C:13",
+      "Db:7",
+      "C:maj7#11",
+      "G:maj7",
+      "B:dim"
+    ]
+  }
+]

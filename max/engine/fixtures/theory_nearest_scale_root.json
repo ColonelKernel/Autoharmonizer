@@ -1,0 +1,362 @@
+[
+{
+"rootPc": 0,
+"key": "C:maj",
+"out": 0
+},
+{
+"rootPc": 1,
+"key": "C:maj",
+"out": 2
+},
+{
+"rootPc": 2,
+"key": "C:maj",
+"out": 2
+},
+{
+"rootPc": 3,
+"key": "C:maj",
+"out": 4
+},
+{
+"rootPc": 4,
+"key": "C:maj",
+"out": 4
+},
+{
+"rootPc": 5,
+"key": "C:maj",
+"out": 5
+},
+{
+"rootPc": 6,
+"key": "C:maj",
+"out": 7
+},
+{
+"rootPc": 7,
+"key": "C:maj",
+"out": 7
+},
+{
+"rootPc": 8,
+"key": "C:maj",
+"out": 9
+},
+{
+"rootPc": 9,
+"key": "C:maj",
+"out": 9
+},
+{
+"rootPc": 10,
+"key": "C:maj",
+"out": 11
+},
+{
+"rootPc": 11,
+"key": "C:maj",
+"out": 11
+},
+{
+"rootPc": 0,
+"key": "A:min",
+"out": 0
+},
+{
+"rootPc": 1,
+"key": "A:min",
+"out": 2
+},
+{
+"rootPc": 2,
+"key": "A:min",
+"out": 2
+},
+{
+"rootPc": 3,
+"key": "A:min",
+"out": 4
+},
+{
+"rootPc": 4,
+"key": "A:min",
+"out": 4
+},
+{
+"rootPc": 5,
+"key": "A:min",
+"out": 5
+},
+{
+"rootPc": 6,
+"key": "A:min",
+"out": 7
+},
+{
+"rootPc": 7,
+"key": "A:min",
+"out": 7
+},
+{
+"rootPc": 8,
+"key": "A:min",
+"out": 8
+},
+{
+"rootPc": 9,
+"key": "A:min",
+"out": 9
+},
+{
+"rootPc": 10,
+"key": "A:min",
+"out": 11
+},
+{
+"rootPc": 11,
+"key": "A:min",
+"out": 11
+},
+{
+"rootPc": 0,
+"key": "Eb:maj",
+"out": 0
+},
+{
+"rootPc": 1,
+"key": "Eb:maj",
+"out": 2
+},
+{
+"rootPc": 2,
+"key": "Eb:maj",
+"out": 2
+},
+{
+"rootPc": 3,
+"key": "Eb:maj",
+"out": 3
+},
+{
+"rootPc": 4,
+"key": "Eb:maj",
+"out": 5
+},
+{
+"rootPc": 5,
+"key": "Eb:maj",
+"out": 5
+},
+{
+"rootPc": 6,
+"key": "Eb:maj",
+"out": 7
+},
+{
+"rootPc": 7,
+"key": "Eb:maj",
+"out": 7
+},
+{
+"rootPc": 8,
+"key": "Eb:maj",
+"out": 8
+},
+{
+"rootPc": 9,
+"key": "Eb:maj",
+"out": 10
+},
+{
+"rootPc": 10,
+"key": "Eb:maj",
+"out": 10
+},
+{
+"rootPc": 11,
+"key": "Eb:maj",
+"out": 0
+},
+{
+"rootPc": 0,
+"key": "F#:min",
+"out": 1
+},
+{
+"rootPc": 1,
+"key": "F#:min",
+"out": 1
+},
+{
+"rootPc": 2,
+"key": "F#:min",
+"out": 2
+},
+{
+"rootPc": 3,
+"key": "F#:min",
+"out": 4
+},
+{
+"rootPc": 4,
+"key": "F#:min",
+"out": 4
+},
+{
+"rootPc": 5,
+"key": "F#:min",
+"out": 5
+},
+{
+"rootPc": 6,
+"key": "F#:min",
+"out": 6
+},
+{
+"rootPc": 7,
+"key": "F#:min",
+"out": 8
+},
+{
+"rootPc": 8,
+"key": "F#:min",
+"out": 8
+},
+{
+"rootPc": 9,
+"key": "F#:min",
+"out": 9
+},
+{
+"rootPc": 10,
+"key": "F#:min",
+"out": 11
+},
+{
+"rootPc": 11,
+"key": "F#:min",
+"out": 11
+},
+{
+"rootPc": 0,
+"key": "G:maj",
+"out": 0
+},
+{
+"rootPc": 1,
+"key": "G:maj",
+"out": 2
+},
+{
+"rootPc": 2,
+"key": "G:maj",
+"out": 2
+},
+{
+"rootPc": 3,
+"key": "G:maj",
+"out": 4
+},
+{
+"rootPc": 4,
+"key": "G:maj",
+"out": 4
+},
+{
+"rootPc": 5,
+"key": "G:maj",
+"out": 6
+},
+{
+"rootPc": 6,
+"key": "G:maj",
+"out": 6
+},
+{
+"rootPc": 7,
+"key": "G:maj",
+"out": 7
+},
+{
+"rootPc": 8,
+"key": "G:maj",
+"out": 9
+},
+{
+"rootPc": 9,
+"key": "G:maj",
+"out": 9
+},
+{
+"rootPc": 10,
+"key": "G:maj",
+"out": 11
+},
+{
+"rootPc": 11,
+"key": "G:maj",
+"out": 11
+},
+{
+"rootPc": 0,
+"key": "Bb:maj",
+"out": 0
+},
+{
+"rootPc": 1,
+"key": "Bb:maj",
+"out": 2
+},
+{
+"rootPc": 2,
+"key": "Bb:maj",
+"out": 2
+},
+{
+"rootPc": 3,
+"key": "Bb:maj",
+"out": 3
+},
+{
+"rootPc": 4,
+"key": "Bb:maj",
+"out": 5
+},
+{
+"rootPc": 5,
+"key": "Bb:maj",
+"out": 5
+},
+{
+"rootPc": 6,
+"key": "Bb:maj",
+"out": 7
+},
+{
+"rootPc": 7,
+"key": "Bb:maj",
+"out": 7
+},
+{
+"rootPc": 8,
+"key": "Bb:maj",
+"out": 9
+},
+{
+"rootPc": 9,
+"key": "Bb:maj",
+"out": 9
+},
+{
+"rootPc": 10,
+"key": "Bb:maj",
+"out": 10
+},
+{
+"rootPc": 11,
+"key": "Bb:maj",
+"out": 0
+}
+]
