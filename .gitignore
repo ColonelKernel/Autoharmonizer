@@ -14,6 +14,14 @@ __pycache__/
 # macOS Finder metadata.
 .DS_Store
 
+# Local snapshots and experimental working copies — not part of the shipped repo.
+#   archive/   dated release zips + checksums (a build artifact of a git tag).
+#   versions/  full alternate working copies (e.g. versions/v4-theory, ~280 MB
+#              with its own max/, python/, data/ and node_modules). If a version
+#              is worth keeping, it belongs on its own branch, not vendored here.
+archive/
+versions/
+
 # Machine-local Claude Code permission grants; they hard-code absolute paths on
 # one developer's Mac. The rest of .claude/ is tracked if it ever gains content.
 .claude/settings.local.json

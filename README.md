@@ -10,6 +10,12 @@
 > `autoharmonizer-max` repo. Start here: **[COMBINED_DEVICE.md](COMBINED_DEVICE.md)**.
 > The sections below are the original UPF docs (the Markov / corpus-blend side).
 
+> **No Python? Use the ONNX devices.** `max/Chord Markov Performer (ONNX).amxd`
+> and `max/Chord Markov Sequencer (ONNX).amxd` run the entire generative brain —
+> RNN/LSTM via ONNX, Markov blend and phrase generation in JS — **inside Max**,
+> with no service to launch or supervise. Start here:
+> **[ONNX_DEVICE.md](ONNX_DEVICE.md)**.
+
 A local Max + Python system that sends one chord symbol to a Python service over OSC/UDP and receives one next chord sampled from a first-order Markov chain. Chord labels (e.g. `G:7`, `C:maj7`) are treated as opaque strings. There is also a Python-free path — the ONNX devices in [ONNX_DEVICE.md](ONNX_DEVICE.md) run generation entirely inside Max.
 
 **Protocol version:** v3 — see [COMBINED_DEVICE.md](COMBINED_DEVICE.md). The Markov / corpus-blend behavior described below is the original v1 core, unchanged inside the v3 backend.
@@ -208,6 +214,34 @@ baselines. Two integration details:
 `torch` is only imported when `rnn`/`lstm` is actually selected, so a
 Markov-only setup does not need it.
 
+## Python-free ONNX devices
+
+Two devices run generation **entirely inside Max** — no Python service, no UDP,
+no background process to launch or supervise:
+
+| Device | Panel | Layout |
+|---|---|---|
+| `max/Chord Markov Performer (ONNX).amxd` | compact (584×169) | tabs, one Spice macro, five dials |
+| `max/Chord Markov Sequencer (ONNX).amxd` | wide (960×169) | Color/Adventure split out, VoiceDist + Audition, full readouts |
+
+Same harmonic brain as the Python devices: the RNN/LSTM run through **ONNX**
+(`onnxruntime-node`), the Markov blend and phrase generator are ported to JS. If
+the native ONNX runtime can't load (offline install, unsupported CPU) the device
+falls back to a **pure-JS forward pass** over the same weights and the panel
+reads `js fallback` instead of `onnx ready`. Python is needed only to *export*
+the model files, never to run them.
+
+Because there is no fixed UDP port, **two ONNX devices can coexist in one Live
+Set** — the Python-backed pair could not (they shared ports `9000`/`9001`).
+
+> **Ships as a folder, not a lone `.amxd`.** Node for Max resolves the JS and the
+> vendored `onnxruntime-node` from `max/node_modules` at runtime, and the models
+> from `../data`. Copy the whole project, run `npm install` once in `max/`, then
+> drag either `.amxd` onto a MIDI track — the engine light goes amber
+> (`loading models`) then green.
+
+Full install / verify / regenerate guide: **[ONNX_DEVICE.md](ONNX_DEVICE.md)**.
+
 ## Testing
 
 ```bash
@@ -297,7 +331,11 @@ G:7,C:maj7,241,0.2105
 |---|---|
 | `chord_markov_device.maxpat` | Max patch with chord input, send/ping/reload/npm buttons, status/output/error displays, and a symbol outlet |
 | `markov_osc.js` | Node-for-Max bridge: sends/receives OSC to Python on ports 9000/9001, handles 500 ms reply timeout |
-| `package.json` | Declares `node-osc` npm dependency for the bridge script |
+| `Chord Markov Performer (ONNX).amxd`, `Chord Markov Sequencer (ONNX).amxd` | Python-free devices; generation runs in-process (ONNX + JS fallback). See [ONNX_DEVICE.md](ONNX_DEVICE.md) |
+| `onnx_markov_osc.js` | In-process bridge for the ONNX devices: no OSC, no supervisor; reuses the same player + voicing, feeds `engine/` locally |
+| `engine/` | Ported generative brain: vocab, notation, corpus/blend Markov, neural (ONNX + pure-JS backends), phrase engine — all cross-checked against Python by fixture |
+| `build_onnx_patches.py` | Generates the two ONNX patches from the performer base; refuses to run if any of the six baseline devices changed |
+| `package.json` | Declares `node-osc` (Python devices) and optional `onnxruntime-node` (ONNX devices) |
 | `README.md` | Max-specific controls, ports, and troubleshooting |
 
 ### `python/src/`
