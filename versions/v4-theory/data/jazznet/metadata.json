@@ -1,0 +1,12 @@
+{
+  "source_repo": "https://github.com/scalzadonna/JazzNet",
+  "branch": "train",
+  "epoch": 35,
+  "hyperparameters": {
+    "embedding_dim": 48,
+    "hidden_dim": 128,
+    "n_layers": 2,
+    "dropout": 0.3,
+    "padding_idx": 0
+  }
+}

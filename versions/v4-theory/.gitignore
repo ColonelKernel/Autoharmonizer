@@ -14,15 +14,6 @@ __pycache__/
 # macOS Finder metadata.
 .DS_Store
 
-# Dated release zips + checksums (a build artifact of a git tag).
-archive/
-
-# The v4-theory experiment is TRACKED on this branch (its own nested .gitignore
-# drops max/node_modules). On main it is ignored; a version worth keeping lives
-# on its own branch, not vendored into the shipped tree.
-# Third-party reference PDF (harmony-singer hardware manual) is not ours to ship.
-versions/v4-theory/404710_harmony_singer_2_manual_en_404710.pdf
-
 # Machine-local Claude Code permission grants; they hard-code absolute paths on
 # one developer's Mac. The rest of .claude/ is tracked if it ever gains content.
 .claude/settings.local.json

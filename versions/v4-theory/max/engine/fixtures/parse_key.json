@@ -1,0 +1,240 @@
+[
+{
+"key": "",
+"tonicPc": null,
+"mode": "maj",
+"keyOffset": 0,
+"transposeOffset": null
+},
+{
+"key": "   ",
+"tonicPc": null,
+"mode": "maj",
+"keyOffset": 0,
+"transposeOffset": null
+},
+{
+"key": "C",
+"tonicPc": 0,
+"mode": "maj",
+"keyOffset": 0,
+"transposeOffset": 0
+},
+{
+"key": "Cm",
+"tonicPc": 0,
+"mode": "min",
+"keyOffset": -3,
+"transposeOffset": -3
+},
+{
+"key": "C:maj",
+"tonicPc": 0,
+"mode": "maj",
+"keyOffset": 0,
+"transposeOffset": 0
+},
+{
+"key": "C:min",
+"tonicPc": 0,
+"mode": "min",
+"keyOffset": -3,
+"transposeOffset": -3
+},
+{
+"key": "A:min",
+"tonicPc": 9,
+"mode": "min",
+"keyOffset": 0,
+"transposeOffset": 0
+},
+{
+"key": "A:maj",
+"tonicPc": 9,
+"mode": "maj",
+"keyOffset": 3,
+"transposeOffset": 3
+},
+{
+"key": "Gb:maj",
+"tonicPc": 6,
+"mode": "maj",
+"keyOffset": 6,
+"transposeOffset": 6
+},
+{
+"key": "Gm",
+"tonicPc": 7,
+"mode": "min",
+"keyOffset": 2,
+"transposeOffset": 2
+},
+{
+"key": "Eb major",
+"tonicPc": 3,
+"mode": "maj",
+"keyOffset": -3,
+"transposeOffset": -3
+},
+{
+"key": "Eb minor",
+"tonicPc": 3,
+"mode": "min",
+"keyOffset": 6,
+"transposeOffset": 6
+},
+{
+"key": "F# minor",
+"tonicPc": 6,
+"mode": "min",
+"keyOffset": 3,
+"transposeOffset": 3
+},
+{
+"key": "Bb",
+"tonicPc": 10,
+"mode": "maj",
+"keyOffset": 2,
+"transposeOffset": 2
+},
+{
+"key": "Bbm",
+"tonicPc": 10,
+"mode": "min",
+"keyOffset": -1,
+"transposeOffset": -1
+},
+{
+"key": "Ab:min",
+"tonicPc": 8,
+"mode": "min",
+"keyOffset": 1,
+"transposeOffset": 1
+},
+{
+"key": "Db:maj",
+"tonicPc": 1,
+"mode": "maj",
+"keyOffset": -1,
+"transposeOffset": -1
+},
+{
+"key": "B",
+"tonicPc": 11,
+"mode": "maj",
+"keyOffset": 1,
+"transposeOffset": 1
+},
+{
+"key": "Bm",
+"tonicPc": 11,
+"mode": "min",
+"keyOffset": -2,
+"transposeOffset": -2
+},
+{
+"key": "F#:maj",
+"tonicPc": 6,
+"mode": "maj",
+"keyOffset": 6,
+"transposeOffset": 6
+},
+{
+"key": "F#m",
+"tonicPc": 6,
+"mode": "min",
+"keyOffset": 3,
+"transposeOffset": 3
+},
+{
+"key": "Fb",
+"tonicPc": 4,
+"mode": "maj",
+"keyOffset": -4,
+"transposeOffset": -4
+},
+{
+"key": "Cb",
+"tonicPc": 11,
+"mode": "maj",
+"keyOffset": 1,
+"transposeOffset": 1
+},
+{
+"key": "E#",
+"tonicPc": 5,
+"mode": "maj",
+"keyOffset": -5,
+"transposeOffset": -5
+},
+{
+"key": "B#",
+"tonicPc": 0,
+"mode": "maj",
+"keyOffset": 0,
+"transposeOffset": 0
+},
+{
+"key": "N",
+"tonicPc": null,
+"mode": "maj",
+"keyOffset": 0,
+"transposeOffset": null
+},
+{
+"key": "junk",
+"tonicPc": null,
+"mode": "maj",
+"keyOffset": 0,
+"transposeOffset": null
+},
+{
+"key": "Xm",
+"tonicPc": null,
+"mode": "min",
+"keyOffset": 0,
+"transposeOffset": null
+},
+{
+"key": "D:minor",
+"tonicPc": 2,
+"mode": "min",
+"keyOffset": -5,
+"transposeOffset": -5
+},
+{
+"key": "D minor",
+"tonicPc": 2,
+"mode": "min",
+"keyOffset": -5,
+"transposeOffset": -5
+},
+{
+"key": "D:mixolydian",
+"tonicPc": 2,
+"mode": "maj",
+"keyOffset": -2,
+"transposeOffset": -2
+},
+{
+"key": "G major",
+"tonicPc": 7,
+"mode": "maj",
+"keyOffset": 5,
+"transposeOffset": 5
+},
+{
+"key": "G min",
+"tonicPc": 7,
+"mode": "min",
+"keyOffset": 2,
+"transposeOffset": 2
+},
+{
+"key": "  A:min  ",
+"tonicPc": 9,
+"mode": "min",
+"keyOffset": 0,
+"transposeOffset": 0
+}
+]

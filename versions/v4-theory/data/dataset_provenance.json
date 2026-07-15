@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-07-13",
+  "project_version": "4.0.0-dev",
+  "notice": "This records technical provenance leads and content identities. It does not grant rights or constitute legal advice. No dataset license in this file has been verified by this repository.",
+  "policy": {
+    "raw_downloads": "Keep raw third-party datasets outside Git until their terms and redistribution rights are reviewed.",
+    "derived_artifacts": "Commit a derived artifact only after recording its exact inputs, transformation, checksum, license obligations, and allowed redistribution.",
+    "splits": "Split train, validation, and test data by composition or recording, never by chord window from the same work.",
+    "audio": "Do not redistribute referenced audio unless explicit permission has been verified."
+  },
+  "current_artifacts": [
+    {
+      "path": "data/markov_corpora_t.json",
+      "kind": "processed transition counts",
+      "sha256": "93a4b05dab21122625194b42e22937990f405b2054fdb76ef4980fc5aaef81f9",
+      "components": [
+        "Nottingham",
+        "POP909",
+        "Bach chorales via music21",
+        "OpenBook"
+      ],
+      "build_reference": "python/scripts/build_bach_markov.py",
+      "upstream_locator_status": "incomplete in the local repository",
+      "license_status": "not verified",
+      "redistribution_status": "review required"
+    },
+    {
+      "path": "data/markov_openbook.csv",
+      "kind": "processed chord transition table",
+      "sha256": "ec5843e418ebe4b3079817f64db0efd0076eb1ffadc941243e629b78ac0ed2f8",
+      "upstream_name": "OpenBook",
+      "upstream_locator_status": "not recorded in the local repository",
+      "license_status": "not verified",
+      "redistribution_status": "review required"
+    },
+    {
+      "path": "data/jazznet/chords.json",
+      "kind": "symbolic chord sequences",
+      "sha256": "5898be2e434e47c61cda010c2b73f0c722d9b2b1eff9ea40b57d7fc617c5ece3",
+      "upstream_name": "JazzNet",
+      "upstream_locator": "https://github.com/scalzadonna/JazzNet",
+      "upstream_branch_recorded_locally": "train",
+      "license_status": "not verified",
+      "redistribution_status": "review required"
+    },
+    {
+      "path": "data/phrase_model_jazznet.json",
+      "kind": "derived phrase and duration model",
+      "sha256": "00397bdd891c527f8b40b0fc2d53ce17b5c90d39dceb75a2e7e7f0d5227a7f10",
+      "input": "data/jazznet/chords.json",
+      "build_reference": "python/scripts/build_phrase_model.py",
+      "license_status": "inherits unresolved input review",
+      "redistribution_status": "review required"
+    },
+    {
+      "path": "data/theory_ngram.json",
+      "kind": "derived variable-order chord n-gram (orders 1 through 4)",
+      "sha256": "10dd05fe59dbdd6bf1cbd975dad0dddc33f7934c1cc5c99d195bd2844079f1f8",
+      "input": "data/jazznet/chords.json",
+      "build_reference": "python/scripts/build_theory_ngram.py",
+      "preprocessing": "run-length encode held beat tokens, count chord-change contexts, back off from order 4 to order 1",
+      "license_status": "inherits unresolved input review",
+      "redistribution_status": "review required"
+    },
+    {
+      "path": "data/jazznet/checkpoints/rnn/baselineRNN-epoch35.pt",
+      "kind": "trained model checkpoint",
+      "sha256": "e79ff038ec5155018d78bad7f14452e49834e20c493e05ef2a2206024649d5dc",
+      "upstream_name": "JazzNet",
+      "upstream_locator": "https://github.com/scalzadonna/JazzNet",
+      "license_status": "not verified",
+      "redistribution_status": "review required"
+    },
+    {
+      "path": "data/jazznet/checkpoints/lstm/ChordLSTM-epoch35.pt",
+      "kind": "trained model checkpoint",
+      "sha256": "3f14442e13ac94217d76d98a0779b4c28c35f07ecdc6beddc70f6c77acd9f9df",
+      "upstream_name": "JazzNet",
+      "upstream_locator": "https://github.com/scalzadonna/JazzNet",
+      "license_status": "not verified",
+      "redistribution_status": "review required"
+    }
+  ],
+  "candidate_sources": [
+    {
+      "id": "mtg-catalog",
+      "name": "Music Technology Group software and datasets catalog",
+      "locator": "https://www.upf.edu/web/mtg/software-datasets",
+      "bundled": false,
+      "license_status": "verify each linked dataset independently"
+    },
+    {
+      "id": "choco",
+      "name": "ChoCo: the Chord Corpus",
+      "locator": "https://github.com/smashub/choco",
+      "intended_use": "standardized chord, key, style, and modulation training data",
+      "bundled": false,
+      "license_status": "not verified; review every partition and its redistribution terms"
+    },
+    {
+      "id": "dcml-corpora",
+      "name": "DCML corpora",
+      "locator": "https://github.com/DCMLab/dcml_corpora",
+      "intended_use": "Roman-numeral function, cadence, tonicization, and modulation supervision",
+      "bundled": false,
+      "license_status": "not verified; review each included corpus"
+    },
+    {
+      "id": "jaah",
+      "name": "Audio-aligned Jazz Harmony",
+      "locator": "https://doi.org/10.5281/zenodo.1290737",
+      "intended_use": "jazz phrase structure, chord extensions, harmonic rhythm, and evaluation",
+      "bundled": false,
+      "license_status": "not verified; annotations and referenced audio may have different terms"
+    },
+    {
+      "id": "haydn-op20",
+      "name": "Haydn Op. 20 harmonic annotations",
+      "locator": "https://doi.org/10.5281/zenodo.1095630",
+      "intended_use": "classical functional harmony, inversions, cadences, and modulation evaluation",
+      "bundled": false,
+      "license_status": "not verified"
+    }
+  ]
+}
