@@ -58,7 +58,26 @@ function createMarkovEngine(opts) {
     return [choices[idx][0], choices[idx][1]];
   }
 
-  function blendSample(chord) {
+  /**
+   * Pick a target from a NORMALIZED (C/Am) [[target, prob], ...] distribution.
+   *
+   * With a theory candidate_selector (v4's HarmonyPlanner), the choices are
+   * transposed to RUNTIME spelling FIRST — the planner classifies complexity
+   * against the live key, so it must see live-key chords — and the selector's
+   * chosen chord is returned directly (already runtime). Without a selector the
+   * internal weighted draw picks in normalized space and the winner is
+   * transposed back. Mirrors markov_engine.py::_blend_sample exactly.
+   */
+  function resolvePick(chord, normChoices, offset, selector) {
+    if (selector) {
+      const runtimeChoices = normChoices.map(([t, p]) => [transposeChord(t, -offset), p]);
+      return selector(chord, runtimeChoices, "markov"); // [runtimeSymbol, prob]
+    }
+    const [chosenNorm, prob] = choose(normChoices);
+    return [transposeChord(chosenNorm, -offset), prob];
+  }
+
+  function blendSample(chord, selector) {
     const [normIn, offset] = blend.normalizeToKey(chord, key);
     const weights = blend.colorWeights(color, corpora.names());
     const tau = blend.temperature(adventure);
@@ -72,9 +91,9 @@ function createMarkovEngine(opts) {
 
     const choices = blend.blendedChoices(corpora, weights, tau, normIn, mode, gravity);
     if (choices.length > 0) {
-      const [chosenNorm, prob] = choose(choices);
+      const [output, prob] = resolvePick(chord, choices, offset, selector);
       return {
-        output: transposeChord(chosenNorm, -offset),
+        output,
         probability: prob,
         candidates: choices.length,
         fallbackUsed: false,
@@ -82,7 +101,7 @@ function createMarkovEngine(opts) {
         mix,
       };
     }
-    return blendFallback(chord, normIn, offset, tau, mix);
+    return blendFallback(chord, normIn, offset, tau, mix, selector);
   }
 
   /**
@@ -92,7 +111,7 @@ function createMarkovEngine(opts) {
    *  (2) The configured policy: error_only | echo_input | global_top | random_source.
    *  (3) Final default: echo the input chord.
    */
-  function blendFallback(chord, normIn, offset, tau, mix) {
+  function blendFallback(chord, normIn, offset, tau, mix, selector) {
     const error = `unknown chord: ${chord}`;
     const mode = parseKey(key).mode;
 
@@ -101,9 +120,9 @@ function createMarkovEngine(opts) {
     const dist = corpora.pooled().get(normIn);
     if (dist && dist.length > 0) {
       const choices = blend.applyCadence(blend.applyTemperature(dist, tau), mode, gravity);
-      const [chosenNorm, prob] = choose(choices);
+      const [output, prob] = resolvePick(chord, choices, offset, selector);
       return {
-        output: transposeChord(chosenNorm, -offset),
+        output,
         probability: prob,
         candidates: choices.length,
         fallbackUsed: true,
@@ -137,9 +156,9 @@ function createMarkovEngine(opts) {
         // Python random.choice(sources); draw is not reproduced, any index works.
         const src = sources[Math.floor(rng() * sources.length)];
         const choices = blend.applyTemperature(pooled.get(src), tau);
-        const [chosenNorm, prob] = choose(choices);
+        const [output, prob] = resolvePick(chord, choices, offset, selector);
         return {
-          output: transposeChord(chosenNorm, -offset),
+          output,
           probability: prob,
           candidates: choices.length,
           fallbackUsed: true,
@@ -154,7 +173,8 @@ function createMarkovEngine(opts) {
   }
 
   return {
-    sample(rawInput) {
+    sample(rawInput, opts) {
+      const selector = opts && opts.candidateSelector ? opts.candidateSelector : null;
       const chord = String(rawInput == null ? "" : rawInput).trim();
       if (!chord) {
         return {
@@ -166,7 +186,7 @@ function createMarkovEngine(opts) {
           mix: null,
         };
       }
-      return blendSample(chord);
+      return blendSample(chord, selector);
     },
     setColor(v) {
       color = Number(v);

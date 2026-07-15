@@ -112,6 +112,7 @@ const MODEL_NAMES = ["markov", "rnn", "lstm"];
   check("engine names its forward pass", kind === "onnx ready" || kind === "js fallback", kind);
   console.log(`     -> running the ${kind === "onnx ready" ? "ONNX" : "pure-JS"} backend`);
   check("status ready emitted", sel("status").some((o) => o[1] === "ready"));
+  check("engine reports the v4 protocol at boot", sel("protocolstat").some((o) => o[1] === "v4"));
 
   // === 2. WALK ENGINES: markov / rnn / lstm each produce MIDI ===============
   for (let idx = 0; idx < 3; idx++) {
@@ -204,6 +205,48 @@ const MODEL_NAMES = ["markov", "rnn", "lstm"];
 
   handlers.play(0);
   await settle();
+
+  // === 3b. V4 THEORY: the n-gram model + Complexity, driven through the bridge ==
+  // modelidx 4 is "ngram" in the 5-entry ONNX tab; the bridge routes it through
+  // sendModel like any walk model. The panel must confirm it and it must play.
+  clear();
+  handlers.modelidx(4); // ngram
+  await settle();
+  const ngStat = lastOf("modelstat");
+  check("ngram: modelidx 4 selects the ngram model", !!ngStat && ngStat[1] === "ngram", ngStat && ngStat[1]);
+
+  handlers.phrasemode(2); // oneshot
+  handlers.seedsel(0);
+  clear();
+  handlers.play(1);
+  await settle();
+  const ngNotes = tickNotes();
+  check("ngram: first beat emits playable MIDI", ngNotes.length === 1 && ngNotes[0].length >= 3, JSON.stringify(ngNotes));
+  let ngSounded = 1;
+  for (let t = 1; t < 16; t++) { await settle(4); if (tickNotes().length) ngSounded++; }
+  check("ngram: walks a full 4-bar cycle", ngSounded >= 4, `${ngSounded} chords`);
+  handlers.play(0);
+  await settle();
+
+  // Complexity must be accepted at any dial position without error and keep
+  // producing playable chords (the tier EFFECT is pinned in local_engine.test.js).
+  let cxOk = true;
+  let cxErr = false;
+  for (const cx of [0.0, 0.5, 1.0]) {
+    handlers.modelidx(0); // markov
+    handlers.complexity(cx);
+    handlers.seedsel(0);
+    clear();
+    handlers.play(1);
+    await settle();
+    const n = tickNotes();
+    if (!(n.length === 1 && n[0].every((m) => Number.isInteger(m) && m >= 0 && m <= 127))) cxOk = false;
+    if (sel("error").length) cxErr = true; // scoped: cleared before this play
+    handlers.play(0);
+    await settle();
+  }
+  check("complexity: every dial position still voices playable MIDI", cxOk);
+  check("complexity: no error emitted across the sweep", !cxErr);
 
   // === 4. HOLD / PANIC still behave =========================================
   check("stop emits playoff", sel("playoff").length >= 1);

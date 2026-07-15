@@ -59,7 +59,7 @@
      ],
      "parameter_enable": 1,
      "num_lines_patching": 1,
-     "num_lines_presentation": 4,
+     "num_lines_presentation": 5,
      "patching_rect": [
       1180,
       650,
@@ -75,9 +75,10 @@
         "markov",
         "rnn",
         "lstm",
-        "phrase"
+        "phrase",
+        "ngram"
        ],
-       "parameter_mmax": 3,
+       "parameter_mmax": 4,
        "parameter_initial_enable": 1,
        "parameter_initial": [
         3
@@ -3820,6 +3821,68 @@
      ],
      "text": "loadbang"
     }
+   },
+   {
+    "box": {
+     "id": "obj-onnx-dial-complexity",
+     "maxclass": "live.dial",
+     "numinlets": 1,
+     "numoutlets": 2,
+     "outlettype": [
+      "",
+      "float"
+     ],
+     "parameter_enable": 1,
+     "patching_rect": [
+      1180,
+      1600,
+      44,
+      48
+     ],
+     "saved_attribute_attributes": {
+      "valueof": {
+       "parameter_longname": "Complexity",
+       "parameter_shortname": "Complexity",
+       "parameter_type": 0,
+       "parameter_mmin": 0,
+       "parameter_mmax": 1,
+       "parameter_unitstyle": 1,
+       "parameter_modmode": 3,
+       "parameter_initial_enable": 1,
+       "parameter_initial": [
+        0.5
+       ]
+      }
+     },
+     "varname": "Complexity",
+     "presentation": 1,
+     "presentation_rect": [
+      222,
+      60,
+      46,
+      48
+     ],
+     "annotation": "Harmony complexity: how much of the model's harmonic grammar is allowed, from diatonic triads (low) through sevenths, secondary dominants, extensions, and altered/chromatic chords (high). 0.5 keeps the model's own chords. Applies to markov/rnn/lstm/ngram.",
+     "annotation_name": "Complexity"
+    }
+   },
+   {
+    "box": {
+     "id": "obj-onnx-pre-complexity",
+     "maxclass": "newobj",
+     "numinlets": 1,
+     "numoutlets": 1,
+     "patching_rect": [
+      1240,
+      1600,
+      120,
+      22
+     ],
+     "text": "prepend complexity",
+     "outlettype": [
+      ""
+     ]
+    }
    }
   ],
   "lines": [
@@ -5891,6 +5954,42 @@
     "patchline": {
      "destination": [
       "obj-spice-triplet",
+      0
+     ],
+     "source": [
+      "obj-spice-loadbang",
+      0
+     ]
+    }
+   },
+   {
+    "patchline": {
+     "destination": [
+      "obj-onnx-pre-complexity",
+      0
+     ],
+     "source": [
+      "obj-onnx-dial-complexity",
+      0
+     ]
+    }
+   },
+   {
+    "patchline": {
+     "destination": [
+      "obj-node",
+      0
+     ],
+     "source": [
+      "obj-onnx-pre-complexity",
+      0
+     ]
+    }
+   },
+   {
+    "patchline": {
+     "destination": [
+      "obj-onnx-dial-complexity",
       0
      ],
      "source": [

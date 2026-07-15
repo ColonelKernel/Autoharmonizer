@@ -16,6 +16,7 @@
 
 const assert = require("assert");
 const { createLocalEngine, dialToTemperature } = require("./local_engine.js");
+const { makeRng } = require("./rng.js");
 
 let passed = 0;
 const ok = (cond, msg) => { assert.ok(cond, msg); passed++; };
@@ -31,7 +32,10 @@ const eq = (a, b, msg) => { assert.deepStrictEqual(a, b, msg); passed++; };
   ok(Math.abs(dialToTemperature(9) - 2.4) < 1e-9, "clamps above 1");
   ok(Math.abs(dialToTemperature("nonsense") - 1.5) < 1e-9, "non-numeric -> default");
 
-  const eng = createLocalEngine({});
+  // Seed the shared rng so the whole suite is deterministic — the assertion
+  // count is then stable (phrase length no longer wanders) and the complexity
+  // mean-tier checks below don't depend on luck.
+  const eng = createLocalEngine({ rng: makeRng(20240714) });
   const boot = await eng.init();
   ok(boot.ok, "engine boots");
   eq(eng.state(), "up", "state is up");
@@ -120,6 +124,77 @@ const eq = (a, b, msg) => { assert.deepStrictEqual(a, b, msg); passed++; };
   ok(r.ok, "reload succeeds");
   const after = await eng.sample("C:maj");
   ok(after.output !== null || after.error, "engine still answers after reload");
+
+  // --- v4: the n-gram model is a fourth Model -----------------------------
+  eng.setKey("C:maj");
+  ok(eng.setModel("ngram").ok, "ngram is a selectable model");
+  eq(eng.activeModel(), "ngram", "ngram becomes active");
+  eq(eng.sessionStatus()[0], "session", "ngram is stateful under auto");
+  const ng1 = await eng.sample("C:maj");
+  ok(ng1.output && ng1.output.indexOf(":") !== -1, `ngram produces a chord (${ng1.output})`);
+  ok(eng.sessionStatus()[1] >= 1, "ngram session depth advances with history");
+  eng.resetSession();
+  eq(eng.sessionStatus()[1], 0, "resetSession clears the ngram history");
+
+  // --- v4: Complexity reshapes the surface across models ------------------
+  // Tier 0 (complexity 0) is diatonic triads; tier 4 (complexity 1) admits
+  // extensions/alterations. Assert the tier of the realized chord tracks the
+  // dial over a fixed-seed batch (per-sample can vary; the mean must move).
+  const { chordComplexityTier } = require("./theory.js");
+  const tierMean = async (cx, model) => {
+    eng.setModel(model);
+    eng.setComplexity(cx);
+    eng.setKey("C:maj");
+    let sum = 0;
+    const N = 40;
+    for (let i = 0; i < N; i++) {
+      const s = await eng.sample("C:maj");
+      sum += s.output ? chordComplexityTier(s.output, "C:maj") : 0;
+    }
+    return sum / N;
+  };
+  for (const model of ["markov", "ngram"]) {
+    const lo = await tierMean(0.0, model);
+    const hi = await tierMean(1.0, model);
+    ok(hi > lo, `${model}: mean complexity rises with the dial (${lo.toFixed(2)} -> ${hi.toFixed(2)})`);
+  }
+  // Complexity 0 must never emit above tier 1 (diatonic triads/sevenths only).
+  eng.setModel("markov");
+  eng.setComplexity(0.0);
+  let allLow = true;
+  for (let i = 0; i < 40; i++) {
+    const s = await eng.sample("C:maj");
+    if (s.output && chordComplexityTier(s.output, "C:maj") > 1) allLow = false;
+  }
+  ok(allLow, "complexity 0 stays at diatonic tiers (<=1)");
+
+  eng.setComplexity(0.5);
+  eq(eng.complexity(), 0.5, "complexity is stored/readable");
+
+  // v4 parity quirk: registry.py realizes the NEURAL branch's output even on a
+  // fallback (it guards only `output is not None`), while markov/ngram realize
+  // only real selections. So a neural fallback is re-voiced to the tier; a
+  // markov fallback is echoed raw. C#:hdim7 reduces to Db:hdim7, absent from the
+  // JazzNet vocab, so it deterministically hits the neural fallback.
+  {
+    const rnnEng = createLocalEngine({ rng: makeRng(1) });
+    await rnnEng.init();
+    rnnEng.setKey("C:maj");
+    for (const [cx, hint] of [[0.0, "diatonic"], [0.75, "extended"]]) {
+      rnnEng.setModel("rnn");
+      rnnEng.setComplexity(cx);
+      const r = await rnnEng.sample("C#:hdim7");
+      ok(r.fallbackUsed === true, `neural fallback fires for an out-of-vocab chord (cx=${cx})`);
+      ok(r.output !== "C#:hdim7" && r.output !== "Db:hdim7",
+        `neural fallback IS realized (${hint}) to ${r.output}, not echoed raw`);
+      ok(chordComplexityTier(r.output, "C:maj") <= (cx === 0 ? 1 : 4),
+        `realized neural fallback sits in the tier band (${r.output})`);
+    }
+    rnnEng.setModel("markov");
+    rnnEng.setComplexity(0.0);
+    const m = await rnnEng.sample("Zz:wat");
+    ok(m.fallbackUsed === true && m.output === "Zz:wat", "markov fallback is echoed raw, NOT realized");
+  }
 
   console.log("local_engine: " + passed + " tests passed");
 })().catch((err) => {

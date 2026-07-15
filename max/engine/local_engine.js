@@ -28,11 +28,15 @@ const { createNeuralEngine } = require("./neural_engine.js");
 const { createPhraseEngine } = require("./phrase_engine.js");
 const { createOnnxBackend } = require("./neural_backend_onnx.js");
 const { createJsBackend } = require("./neural_backend_js.js");
+const { createNgramEngine } = require("./ngram_engine.js");
+const { createHarmonyPlanner } = require("./planner.js");
+const { reduceForNeural } = require("./theory.js");
+const { fromJazznet } = require("./notation.js");
 
 // Mirrors python/src/config.py. Kept as literals rather than imported from a
 // shared JSON: these are protocol constants, and a drift here should break the
 // parity tests loudly rather than be silently inherited.
-const MODELS = ["markov", "rnn", "lstm"];
+const MODELS = ["markov", "rnn", "lstm", "ngram"];
 const DEFAULT_MODEL = "markov";
 const SESSION_MODES = ["auto", "stateless", "session"];
 const ADVENTURE_TAU_MIN = 0.6;
@@ -40,6 +44,9 @@ const ADVENTURE_TAU_MAX = 1.8;
 const DEFAULT_COLOR = 0.5;
 const DEFAULT_ADVENTURE = 0.35;
 const DEFAULT_GRAVITY = 0.0;
+// v4 harmony-complexity control, default 0.5 = tier 2, the "compatibility" tier
+// whose realize() returns the model's own token unchanged (see planner.realize).
+const DEFAULT_COMPLEXITY = 0.5;
 const DEFAULT_KEY = "C:maj";
 const DEFAULT_FALLBACK = "echo_input";
 const DEFAULT_NEURAL_TEMPERATURE = 1.5;
@@ -98,11 +105,13 @@ function createLocalEngine(opts) {
   const CORPORA_PATH = path.join(dataDir, "markov_corpora_t.json");
   const VOCAB_PATH = path.join(dataDir, "jazznet", "vocab.json");
   const PHRASE_PATH = path.join(dataDir, "phrase_model_jazznet.json");
+  const NGRAM_PATH = path.join(dataDir, "theory_ngram.json");
 
   // --- dial state (survives a reload/restart, like the Python service) ------
   let color = DEFAULT_COLOR;
   let adventure = DEFAULT_ADVENTURE;
   let gravity = DEFAULT_GRAVITY;
+  let complexity = DEFAULT_COMPLEXITY;
   let key = DEFAULT_KEY;
   let sessionMode = "auto";
   let activeModel = DEFAULT_MODEL;
@@ -117,6 +126,11 @@ function createLocalEngine(opts) {
   let vocab = null;
   let rnnEngine = null;
   let lstmEngine = null;
+  let ngramEngine = null;
+  // The v4 theory layer: one HarmonyPlanner is the candidate_selector for every
+  // model (complexity mask + functional rerank) and realizes each surviving
+  // token to the requested complexity tier. Null only if planner.js failed.
+  let planner = null;
   let kind = null; // "onnx" | "js"
   let state = "loading"; // "loading" | "up" | "down"
   let statusWords = ["loading"];
@@ -199,6 +213,18 @@ function createLocalEngine(opts) {
       return { ok: false, error: lastError };
     }
 
+    // The theory planner is the always-on candidate selector + realizer. It has
+    // no external assets (pure logic over theory.js), so it should never fail;
+    // guard anyway so a planner fault degrades to raw model sampling rather than
+    // taking the device down.
+    try {
+      planner = createHarmonyPlanner({ key, complexity, gravity, rng });
+    } catch (err) {
+      planner = null;
+      warnings.push(`planner: ${err.message || err}`);
+      post(`harmony planner unavailable (raw model sampling): ${err.message || err}`);
+    }
+
     // The phrase model is optional: without it the walk engines still play.
     try {
       phrase = createPhraseEngine(PHRASE_PATH, rng);
@@ -206,6 +232,18 @@ function createLocalEngine(opts) {
       phrase = null;
       warnings.push(`phrase: ${err.message || err}`);
       post(`phrase model unavailable: ${err.message || err}`);
+    }
+
+    // The n-gram model is optional too (it is a fourth Model choice, not a floor).
+    try {
+      ngramEngine = createNgramEngine({
+        modelPath: NGRAM_PATH, fallback: DEFAULT_FALLBACK, rng, temperature: neuralTemperature,
+      });
+    } catch (err) {
+      ngramEngine = null;
+      warnings.push(`ngram: ${err.message || err}`);
+      post(`n-gram model unavailable: ${err.message || err}`);
+      if (activeModel === "ngram") activeModel = "markov";
     }
 
     // Neural is optional too: markov + phrase remain usable if it fails.
@@ -251,6 +289,39 @@ function createLocalEngine(opts) {
     return { ok: true };
   }
 
+  // --- theory candidate selectors (mirror registry._select_runtime/_select_neural)
+  // markov + ngram already hand the planner RUNTIME-spelled candidates.
+  function selectRuntime(source, choices, name) {
+    return planner.choose(source, choices, name);
+  }
+  // rnn/lstm hand the planner JAZZNET-spelled candidates; convert to runtime for
+  // the theory decision, then map the chosen chord BACK to its JazzNet token so
+  // the neural session commits the right index.
+  function selectNeural(cjSource, jzCandidates, name) {
+    const runtime = jzCandidates.map(([s, p]) => [fromJazznet(s), p]);
+    const [selRuntime, prob] = planner.choose(fromJazznet(cjSource), runtime, name);
+    for (const [s] of jzCandidates) {
+      if (fromJazznet(s) === selRuntime) return [s, prob];
+    }
+    throw new Error(`planner selected a token outside the ${name} vocabulary: ${selRuntime}`);
+  }
+
+  /**
+   * Apply the complexity-tier surface realization to an output.
+   *
+   * `alsoFallback` mirrors an INTENTIONAL inconsistency in the reference:
+   * registry.py realizes the markov and ngram branches only when
+   * `not fallback_used`, but the NEURAL branch realizes every non-None output
+   * (fallbacks included). Reproduced exactly rather than unified, so the JS
+   * device matches the Python reference chord-for-chord.
+   */
+  function realizeMaybe(res, alsoFallback) {
+    if (planner && res && res.output != null && (alsoFallback || !res.fallbackUsed)) {
+      return Object.assign({}, res, { output: planner.realize(res.output) });
+    }
+    return res;
+  }
+
   // --- sampling ------------------------------------------------------------
   /** Always a promise: the neural path is async, and callers must not care. */
   async function sample(rawInput) {
@@ -258,16 +329,39 @@ function createLocalEngine(opts) {
     if (!chord) {
       return { output: null, error: "empty chord input", fallbackUsed: false };
     }
+    const selector = planner ? selectRuntime : null;
+
     if (activeModel === "markov") {
       if (!markov) return { output: null, error: "markov engine not loaded", fallbackUsed: true };
-      return markov.sample(chord);
+      // markov: realize only a real (non-fallback) selection (registry.py:320).
+      return realizeMaybe(markov.sample(chord, { candidateSelector: selector }), false);
     }
+
+    if (activeModel === "ngram") {
+      if (!ngramEngine) return { output: null, error: "ngram engine unavailable", fallbackUsed: true };
+      try {
+        const res = ngramEngine.sample(chord, { session: effectiveSession(), candidateSelector: selector });
+        return realizeMaybe(res, false); // ngram: non-fallback only (registry.py:329)
+      } catch (err) {
+        return { output: null, error: `ngram sample failed: ${err.message || err}`, fallbackUsed: true };
+      }
+    }
+
     const eng = neuralEngineFor(activeModel);
     if (!eng) {
       return { output: null, error: `${activeModel} engine unavailable`, fallbackUsed: true };
     }
     try {
-      return await eng.next(chord);
+      // Reduce rich v4 qualities to JazzNet's 7-quality alphabet before the
+      // neural vocab (v4 registry does reduce_for_neural then to_jazznet); the
+      // engine's own toJazznet handles the spelling.
+      const structural = reduceForNeural(chord);
+      const res = await eng.next(structural, {
+        candidateSelector: planner ? selectNeural : null,
+        modelName: activeModel,
+      });
+      // neural: registry.py:345 realizes EVERY non-null output, fallbacks too.
+      return realizeMaybe(res, true);
     } catch (err) {
       // A malformed token must never take the device down (osc_service.py logs
       // and returns an error result rather than letting the handler throw).
@@ -302,12 +396,14 @@ function createLocalEngine(opts) {
   function resetSession() {
     if (rnnEngine) rnnEngine.resetSession();
     if (lstmEngine) lstmEngine.resetSession();
+    if (ngramEngine) ngramEngine.resetSession();
   }
 
   function pushTemperature(dialValue) {
     neuralTemperature = dialToTemperature(dialValue);
     if (rnnEngine) rnnEngine.setTemperature(neuralTemperature);
     if (lstmEngine) lstmEngine.setTemperature(neuralTemperature);
+    if (ngramEngine) ngramEngine.setTemperature(neuralTemperature);
   }
 
   return {
@@ -326,8 +422,11 @@ function createLocalEngine(opts) {
 
     setModel(name) {
       if (MODELS.indexOf(name) === -1) return { ok: false, error: `invalid model: ${name}` };
-      if (name !== "markov" && !neuralEngineFor(name)) {
+      if ((name === "rnn" || name === "lstm") && !neuralEngineFor(name)) {
         return { ok: false, error: `failed to load ${name}: engine unavailable` };
+      }
+      if (name === "ngram" && !ngramEngine) {
+        return { ok: false, error: "failed to load ngram: engine unavailable" };
       }
       activeModel = name;
       resetSession(); // fresh context each time a model is selected
@@ -352,15 +451,17 @@ function createLocalEngine(opts) {
 
     resetSession,
 
-    /** [label, step] for the panel: "stateless 0" or "session <n>". */
+    /** [label, step] for the panel: "stateless 0" or "session <n>". ngram's
+     *  depth is its chord-history length (registry.session_status). */
     sessionStatus() {
       if (!effectiveSession()) return ["stateless", 0];
+      if (activeModel === "ngram") return ["session", ngramEngine ? ngramEngine.history.length : 0];
       const eng = neuralEngineFor(activeModel);
       return ["session", eng ? eng.sessionStatus()[1] : 0];
     },
 
     // --- dials. Adventure and Spice also drive the neural temperature, so one
-    // knob spices the Markov blend and the RNN/LSTM sampling together.
+    // knob spices the Markov blend and the RNN/LSTM/ngram sampling together.
     setColor(v) { color = Number(v); if (markov) markov.setColor(color); },
     setAdventure(v) {
       adventure = Number(v);
@@ -373,11 +474,22 @@ function createLocalEngine(opts) {
       if (markov) markov.setSpice(color);
       pushTemperature(adventure);
     },
-    setGravity(v) { gravity = Number(v); if (markov) markov.setGravity(gravity); },
+    setGravity(v) {
+      gravity = Number(v);
+      if (markov) markov.setGravity(gravity);
+      if (planner) planner.setGravity(gravity);
+    },
+    // v4 Harmony Complexity: the theory tier the planner masks/realizes toward.
+    setComplexity(v) {
+      complexity = Number(v);
+      if (planner) planner.setComplexity(complexity);
+    },
+    complexity: () => complexity,
     setKey(v) {
       const s = String(v == null ? "" : v).trim();
       key = s || DEFAULT_KEY;
       if (markov) markov.setKey(key);
+      if (planner) planner.setKey(key);
     },
     currentKey: () => key,
   };

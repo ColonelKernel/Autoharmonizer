@@ -70,6 +70,7 @@ function withEngine() {
       for (const w of result.warnings || []) Max.post(`engine warning: ${w}`);
       Max.outlet(["status", "ready"]);
       Max.outlet(["modelstat", engine.activeModel()]);
+      Max.outlet(["protocolstat", "v4"]); // theory-aware engine (ngram + Complexity)
       emitSessionStatus();
       return engine;
     })
@@ -381,6 +382,16 @@ Max.addHandler("color", (v) => forwardDial("color", v));
 Max.addHandler("adventure", (v) => forwardDial("adventure", v));
 Max.addHandler("spice", (v) => forwardDial("spice", v));
 Max.addHandler("gravity", (v) => forwardDial("gravity", v));
+/**
+ * Harmony Complexity (0..1, v4): the theory tier the engine masks candidates to
+ * and realizes chords at — diatonic triads at 0, altered/extended at 1. Applies
+ * to whichever walk model is active (markov/rnn/lstm/ngram); the phrase engine
+ * is unaffected for now (it has no complexity model yet).
+ */
+Max.addHandler("complexity", (v) => {
+  const x = clamp01(v);
+  withEngine().then((e) => e.setComplexity(x)).catch(() => {});
+});
 Max.addHandler("key", (...atoms) => {
   const k = chordFromArgs(atoms); // reuse: strips a leading "text"/quotes
   if (!k) {

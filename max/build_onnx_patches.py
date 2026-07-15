@@ -136,8 +136,37 @@ def retarget(P, title):
     )
     ids[PRE + "lbl-relink"]["text"] = "reload"
 
+    # v4: the Model tab gains a fifth entry, "ngram" (index 4). MODEL_TAB in
+    # performance_map.js is ["markov","rnn","lstm","phrase","ngram"], so the tab
+    # order must match for modelidx to map correctly.
+    tab = ids.get("obj-spice-tab-model")
+    if tab is not None:
+        vo = tab["saved_attribute_attributes"]["valueof"]
+        vo["parameter_enum"] = ["markov", "rnn", "lstm", "phrase", "ngram"]
+        vo["parameter_mmax"] = 4
+        tab["num_lines_presentation"] = 5
+
     if "obj-title" in ids:
         ids["obj-title"]["text"] = title
+
+
+def add_complexity_dial(P, rect):
+    """Add the v4 Harmony Complexity dial (live.dial 0..1, initial 0.5) wired to
+    the bridge's `complexity` handler, banged by loadbang so the engine matches
+    the panel at load. `rect` is its presentation rectangle on this device."""
+    P["boxes"].extend([
+        bsp.dial(ONX + "dial-complexity", "Complexity", 0.5, 1600,
+                 annotation="Harmony complexity: how much of the model's harmonic grammar is allowed, from "
+                            "diatonic triads (low) through sevenths, secondary dominants, extensions, and altered/"
+                            "chromatic chords (high). 0.5 keeps the model's own chords. Applies to markov/rnn/lstm/ngram."),
+        bsp.newobj(ONX + "pre-complexity", "prepend complexity", 1600, 120),
+    ])
+    P["lines"].extend([
+        bsp.line(ONX + "dial-complexity", ONX + "pre-complexity"),
+        bsp.line(ONX + "pre-complexity", NODE),
+        bsp.line(PRE + "loadbang", ONX + "dial-complexity"),
+    ])
+    by_id(P)[ONX + "dial-complexity"]["presentation_rect"] = list(rect)
 
 
 def unregister_hidden_params(P):
@@ -286,6 +315,8 @@ def build_performer():
     P = doc["patcher"]
     retarget(P, "Chord Markov Performer (ONNX) — Python-free: the RNN/LSTM run in-process "
                 "through ONNX, the Markov blend and phrase generator in JS.")
+    # Complexity fits between the Cadence dial and the Seed readout (y-band 60).
+    add_complexity_dial(P, [222, 60, 46, 48])
     write(doc, OUT_PERF, PANEL_PERF, "performer")
 
 
@@ -416,6 +447,9 @@ def build_spice():
     if dropped != 1:
         sys.exit(f"ERROR: expected exactly 1 loadbang->dial-spice line, removed {dropped}")
 
+    # Complexity sits below the harmony dials, left of the readouts (x302-610 is
+    # clear in the y60-108 band).
+    add_complexity_dial(P, [302, 78, 46, 48])
     apply_layout(P, SPICE_LAYOUT)
     write(doc, OUT_SPICE, PANEL_SPICE, "spice")
 

@@ -36,7 +36,9 @@ function fx(name) {
 }
 
 // The real model actually lives under versions/v4-theory/data (not data/).
-const MODEL_PATH = path.join(__dirname, "..", "..", "versions", "v4-theory", "data", "theory_ngram.json");
+// The shipped runtime asset (copied from versions/v4-theory into the device's
+// data dir); the gitignored versions/ tree is not available to a fresh checkout.
+const MODEL_PATH = path.join(__dirname, "..", "..", "data", "theory_ngram.json");
 const rawModel = JSON.parse(fs.readFileSync(MODEL_PATH, "utf8"));
 const ORDERS = rawModel.orders;
 const GLOBAL = rawModel.global;

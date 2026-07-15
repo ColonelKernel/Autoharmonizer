@@ -41,8 +41,11 @@ check("modelFromIndex 0 -> markov", M.modelFromIndex(0) === "markov");
 check("modelFromIndex 2 -> lstm", M.modelFromIndex(2) === "lstm");
 check("modelFromIndex clamps -1 -> markov", M.modelFromIndex(-1) === "markov");
 check("modelFromIndex 3 -> phrase (the sequence engine)", M.modelFromIndex(3) === "phrase");
-check("modelFromIndex clamps 9 -> phrase", M.modelFromIndex(9) === "phrase");
-check("MODEL_TAB is markov/rnn/lstm/phrase", eqArr(M.MODEL_TAB, ["markov", "rnn", "lstm", "phrase"]));
+check("modelFromIndex clamps 9 -> ngram (last)", M.modelFromIndex(9) === "ngram");
+check("MODEL_TAB is markov/rnn/lstm/phrase/ngram", eqArr(M.MODEL_TAB, ["markov", "rnn", "lstm", "phrase", "ngram"]));
+// The Python-backed devices ship a frozen 4-entry tab; indices 0..3 must not move.
+check("modelFromIndex 0..3 unchanged for the frozen Python tab",
+  eqArr([0, 1, 2, 3].map((i) => M.modelFromIndex(i)), ["markov", "rnn", "lstm", "phrase"]));
 // 'phrase' selects a different ENGINE (/phrase/request), not a registry model.
 // Sending it to /control/model would be an error, so the dial must never yield it.
 check("modelFromDial never yields phrase", [0, 0.25, 0.5, 0.75, 1].every((v) => M.modelFromDial(v) !== "phrase"));

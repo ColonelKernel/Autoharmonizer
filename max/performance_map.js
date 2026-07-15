@@ -70,7 +70,13 @@ function modelFromDial(v) { return pickFromList(MODEL_LIST, v); }
 // different ENGINE that requests a whole N-bar phrase (with its own generated
 // harmonic rhythm) over /phrase/request. Sending it to /control/model would be
 // an error, so it lives only in the tab list.
-const MODEL_TAB = [...MODEL_LIST, "phrase"];
+//
+// "ngram" IS a registry model (v4 theory), but it is appended AFTER "phrase" on
+// purpose: the Python-backed devices ship a frozen 4-entry tab (indices 0..3 =
+// markov/rnn/lstm/phrase) and this module is shared, so anything inserted before
+// index 4 would silently re-map their tab. The Python-free ONNX patches use the
+// 5-entry tab; the v3 backend simply never receives index 4.
+const MODEL_TAB = [...MODEL_LIST, "phrase", "ngram"];
 function modelFromIndex(i) { return pickIndex(MODEL_TAB, i); }
 
 /* --- Phrase capture / re-seed helpers ----------------------------------- *

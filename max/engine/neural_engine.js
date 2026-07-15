@@ -177,7 +177,35 @@ function createNeuralEngine({
     return backend.step(idx, hBos);
   }
 
-  async function next(chordSymbol) {
+  /**
+   * Resolve the next token index from logits. With a candidate_selector (v4's
+   * HarmonyPlanner via a shim), materialize every valid token as
+   * [JazzNet label, prob] (specials and excluded input already zeroed by the
+   * masked softmax, so prob>0 excludes them) — mirroring
+   * jazznet_inference.candidate_probabilities — hand it to the selector, and map
+   * the chosen JazzNet symbol back to its index. Without a selector, the
+   * internal multinomial draw is used. Either way an index is returned, so
+   * auto-feed and output spelling downstream are identical.
+   */
+  function chooseNext(logits, excludeSet, selector, modelName, cj) {
+    if (!selector) return sampleNext(logits, excludeSet);
+    const probs = maskedSoftmax(logits, tau, vocab, excludeSet); // throws if empty
+    const cands = [];
+    for (let i = 0; i < probs.length; i++) {
+      if (!vocab.isSpecial(i) && probs[i] > 0) cands.push([vocab.indexChord(i), probs[i]]);
+    }
+    const picked = selector(cj, cands, modelName); // [jazznetSymbol, prob]
+    const outSym = picked && picked[0];
+    const nextIdx = vocab.chordIndex(outSym);
+    if (nextIdx === null || vocab.isSpecial(nextIdx)) {
+      throw new Error(`selector chose a token outside the ${modelName} vocabulary: ${outSym}`);
+    }
+    return nextIdx;
+  }
+
+  async function next(chordSymbol, opts) {
+    const selector = opts && opts.candidateSelector ? opts.candidateSelector : null;
+    const modelName = (opts && opts.modelName) || "neural";
     const chord = String(chordSymbol == null ? "" : chordSymbol).trim();
     if (!chord) {
       return { output: null, error: "empty chord input", fallbackUsed: false };
@@ -191,7 +219,7 @@ function createNeuralEngine({
       if (mode === "stateless") {
         const { logits } = await stepFromBos(idx);
         const excludeSet = excludeInput ? new Set([idx]) : null;
-        const nextIdx = sampleNext(logits, excludeSet);
+        const nextIdx = chooseNext(logits, excludeSet, selector, modelName, cj);
         return { output: fromJazznet(vocab.indexChord(nextIdx)), error: null, fallbackUsed: false };
       }
 
@@ -214,7 +242,7 @@ function createNeuralEngine({
         hAfter = r.hidden;
       }
 
-      const nextIdx = sampleNext(logits, excludeSet);
+      const nextIdx = chooseNext(logits, excludeSet, selector, modelName, cj);
       const output = fromJazznet(vocab.indexChord(nextIdx));
 
       // Advance session only after a successful sample (fallbacks leave state
