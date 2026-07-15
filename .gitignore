@@ -22,6 +22,9 @@ __pycache__/
 archive/
 versions/
 
+# Distribution bundles built by max/package_device.py (regenerable build output).
+dist/
+
 # Machine-local Claude Code permission grants; they hard-code absolute paths on
 # one developer's Mac. The rest of .claude/ is tracked if it ever gains content.
 .claude/settings.local.json
